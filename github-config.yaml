@@ -1,0 +1,327 @@
+orgs:
+  operate-first:
+    admins:
+      - durandom
+      - goern
+      - HumairAK
+      - sesheta
+      - tumido
+    billing_email: mhild@redhat.com
+    company: ""
+    default_repository_permission: read
+    description: Open-sourcing operations on community-managed clusters
+    email: ""
+    has_organization_projects: true
+    has_repository_projects: false
+    location: ""
+    members:
+      - 4n4nd
+      - aakankshaduggal
+      - accorvin
+      - anishasthana
+      - billburnseh
+      - cfchase
+      - chauhankaranraj
+      - erikerlandson
+      - fridex
+      - gagansk
+      - gmfrasca
+      - Gregory-Pereira
+      - harshad16
+      - hemajv
+      - hpdempsey
+      - ipolonsk
+      - isabelizimm
+      - KPostOffice
+      - larsks
+      - margarethaley
+      - martinpovolny
+      - maulikjs
+      - MichaelClifford
+      - naved001
+      - oindrillac
+      - pacospace
+      - quaid
+      - rbo
+      - rimolive
+      - SankBad
+      - Shreyanand
+      - skanthed
+      - TreeinRandomForest
+      - vpavlin
+    members_can_create_repositories: false
+    name: Operate First
+    repos:
+      SRE:
+        description:
+          This repo contains all the SRE (Site Reliability Engineering) principles
+          and guidelines for managing Operate First services
+        has_projects: false
+      alerts:
+        default_branch: main
+        description: Bots posting alerts from our clusters
+        has_projects: false
+      apps:
+        description: Operate-first application manifests
+        has_projects: false
+      argocd-apps:
+        default_branch: main
+        description: "A repository to store Operate-First ArgoCD Applications "
+        has_projects: false
+      blueprint:
+        default_branch: main
+        description: This is the blueprint for the Operate First Initiative
+        has_projects: false
+        has_wiki: false
+      common:
+        default_branch: main
+        description: Git Hub organization configuration
+        has_projects: false
+      community:
+        default_branch: main
+        has_projects: false
+      continuous-delivery:
+        description: Continuous Delivery
+        has_projects: false
+        has_wiki: false
+      continuous-deployment:
+        description: Continuous Deployment
+        has_projects: false
+        has_wiki: false
+      curator:
+        default_branch: main
+        description: Metering project for OpenShift
+        has_projects: false
+      espresso-series:
+        description: This is where we plan our Expresso Series Production
+        has_projects: false
+      example-acm-install:
+        has_projects: false
+      hetzner-baremetal-openshift:
+        default_branch: main
+        description: OpenShift 4 on Hetzner BareMetal (dedicted server)
+        has_projects: false
+        has_wiki: false
+      installplan-operator:
+        archived: true
+        default_branch: main
+        description: Approve manual updates using information in a configmap
+        has_projects: false
+      odh-dashboard:
+        has_projects: false
+      operate-first-twitter:
+        default_branch: main
+        description:
+          "This repository will be used to publish tweets collaboratively  from
+          the Operate First shared Twitter Account. "
+        has_projects: false
+        homepage: https://twitter.com/OperateFirst
+      operate-first.github.io:
+        has_projects: false
+        has_wiki: false
+      opfcli:
+        default_branch: main
+        has_projects: false
+      support:
+        default_branch: main
+        description:
+          This repo should serve as a central source for reporting issues with
+          ODH components on MOC.
+        has_projects: false
+      template:
+        default_branch: main
+        description: Quick template for new repositories
+        has_projects: false
+      toolbox:
+        description: Toolbox for Operate-First tooling
+        has_projects: false
+      workshop-apps:
+        default_branch: main
+        description: "Repository of ArgoCD application for workshop purposes "
+        has_projects: false
+        has_wiki: false
+    teams:
+      Baristas:
+        description: The Espresso Series Baristas
+        maintainers:
+          - durandom
+          - goern
+        members:
+          - quaid
+          - MichaelClifford
+          - Shreyanand
+          - pacospace
+          - oindrillac
+          - isabelizimm
+        privacy: closed
+        repos:
+          espresso-series: maintain
+      SourceOps:
+        description: This is our SourceOps team, they keep the source fresh.
+        maintainers:
+          - sesheta
+        privacy: closed
+        repos:
+          SRE: admin
+          alerts: admin
+          apps: admin
+          argocd-apps: admin
+          blueprint: admin
+          common: admin
+          community: admin
+          continuous-delivery: admin
+          continuous-deployment: admin
+          curator: admin
+          espresso-series: admin
+          example-acm-install: admin
+          hetzner-baremetal-openshift: admin
+          installplan-operator: admin
+          odh-dashboard: admin
+          operate-first-twitter: admin
+          operate-first.github.io: admin
+          opfcli: admin
+          support: admin
+          template: admin
+          toolbox: admin
+          workshop-apps: admin
+      admins:
+        description:
+          The admin team for operate-first. Members have admin access to all
+          operate-first repos.
+        maintainers:
+          - tumido
+          - HumairAK
+        members:
+          - 4n4nd
+        privacy: closed
+        repos:
+          SRE: admin
+          alerts: admin
+          apps: admin
+          argocd-apps: admin
+          blueprint: admin
+          common: admin
+          community: admin
+          continuous-delivery: admin
+          continuous-deployment: admin
+          curator: admin
+          espresso-series: admin
+          example-acm-install: admin
+          hetzner-baremetal-openshift: admin
+          installplan-operator: admin
+          odh-dashboard: admin
+          operate-first-twitter: admin
+          operate-first.github.io: admin
+          opfcli: admin
+          support: admin
+          template: admin
+          toolbox: admin
+          workshop-apps: admin
+      contributors-core:
+        description:
+          The operate-first contributor team consists of all org members that
+          are core contributors.
+        maintainers:
+          - goern
+          - tumido
+          - HumairAK
+        members:
+          - rbo
+          - martinpovolny
+          - larsks
+          - quaid
+          - erikerlandson
+          - fridex
+          - billburnseh
+          - anishasthana
+          - hemajv
+          - harshad16
+          - Gregory-Pereira
+          - 4n4nd
+          - maulikjs
+          - oindrillac
+          - gagansk
+          - hpdempsey
+          - ipolonsk
+          - margarethaley
+        privacy: closed
+        repos:
+          SRE: triage
+          alerts: triage
+          apps: triage
+          argocd-apps: triage
+          blueprint: triage
+          common: triage
+          community: triage
+          continuous-delivery: triage
+          continuous-deployment: triage
+          curator: triage
+          espresso-series: triage
+          example-acm-install: triage
+          hetzner-baremetal-openshift: triage
+          installplan-operator: triage
+          odh-dashboard: triage
+          operate-first-twitter: triage
+          operate-first.github.io: triage
+          opfcli: triage
+          support: triage
+          template: triage
+          toolbox: triage
+          workshop-apps: triage
+      contributors-web:
+        description: Contributors interested in the website
+        members:
+          - MichaelClifford
+          - Shreyanand
+          - chauhankaranraj
+          - aakankshaduggal
+          - oindrillac
+          - isabelizimm
+        privacy: closed
+        repos:
+          blueprint: triage
+          operate-first.github.io: triage
+      custodians:
+        description: Has extra (write) permissions to be able to add issues to projects
+        maintainers:
+          - tumido
+        members:
+          - larsks
+          - quaid
+          - billburnseh
+          - hemajv
+          - harshad16
+          - oindrillac
+          - gagansk
+          - ipolonsk
+        privacy: closed
+        repos:
+          SRE: write
+          alerts: write
+          apps: write
+          argocd-apps: write
+          blueprint: write
+          community: write
+          continuous-delivery: write
+          continuous-deployment: write
+          curator: write
+          espresso-series: write
+          example-acm-install: write
+          hetzner-baremetal-openshift: write
+          installplan-operator: write
+          odh-dashboard: write
+          operate-first-twitter: write
+          operate-first.github.io: write
+          opfcli: write
+          support: write
+          template: write
+          toolbox: write
+          workshop-apps: write
+      workshoppers:
+        description: A team for members that are creating/writing workshops.
+        members:
+          - vpavlin
+          - pacospace
+        privacy: closed
+        repos:
+          workshop-apps: admin

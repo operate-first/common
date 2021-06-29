@@ -2,20 +2,16 @@
 
 approvers:
   - durandom
+  - goern
   - tumido
   - HumairAK
 
 reviewers:
-  - hemajv
   - durandom
-  - oindrillac
+  - goern
   - tumido
   - HumairAK
   - 4n4nd
-  - harshad16
-  - hemajv
-  - goern
-  - HumairAK
-  - tumido
   - larsks
+  - harshad16
   - quaid
