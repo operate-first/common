@@ -109,7 +109,6 @@ postsubmits:
     spec:
       containers:
         - image: gcr.io/k8s-prow/label_sync:latest
-        - image: gcr.io/k8s-prow/label_sync:latest
           args:
             - --config=labels.yaml
             - --orgs=operate-first
