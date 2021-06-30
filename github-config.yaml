@@ -226,24 +226,24 @@ orgs:
           - tumido
           - HumairAK
         members:
-          - rbo
-          - martinpovolny
-          - larsks
-          - quaid
+          - 4n4nd
+          - Gregory-Pereira
+          - anishasthana
+          - billburnseh
           - erikerlandson
           - fridex
-          - billburnseh
-          - anishasthana
-          - hemajv
-          - harshad16
-          - Gregory-Pereira
-          - 4n4nd
-          - maulikjs
-          - oindrillac
           - gagansk
+          - harshad16
+          - hemajv
           - hpdempsey
           - ipolonsk
+          - larsks
           - margarethaley
+          - martinpovolny
+          - maulikjs
+          - oindrillac
+          - quaid
+          - rbo
         privacy: closed
         repos:
           SRE: triage
