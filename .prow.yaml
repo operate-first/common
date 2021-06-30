@@ -51,10 +51,16 @@ presubmits:
     spec:
       containers:
         - image: gcr.io/k8s-prow/label_sync:latest
+          command:
+            - /bin/sh
           args:
-            - --config=labels.yaml
-            - --orgs=operate-first
-            - --token=/etc/github/oauth
+            - -c
+            - |
+              set -ex
+              /app/label_sync/app.binary \
+              --config=labels.yaml \
+              --orgs=operate-first \
+              --token=/etc/github/oauth
           volumeMounts:
             - name: github-oauth
               mountPath: /etc/github
@@ -109,11 +115,17 @@ postsubmits:
     spec:
       containers:
         - image: gcr.io/k8s-prow/label_sync:latest
+          command:
+            - /bin/sh
           args:
-            - --config=labels.yaml
-            - --orgs=operate-first
-            - --token=/etc/github/oauth
-            - --confirm
+            - -c
+            - |
+              set -ex
+              /app/label_sync/app.binary \
+              --config=labels.yaml \
+              --orgs=operate-first \
+              --token=/etc/github/oauth \
+              --confirm
           volumeMounts:
             - name: github-oauth
               mountPath: /etc/github
