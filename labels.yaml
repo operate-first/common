@@ -378,18 +378,6 @@ default:
         - name: wontfix
       target: both
       addedBy: humans
-    - color: fc05d7
-      description: Indicates an issue/PR is related to end-user documentation.
-      name: users/documentation
-      target: both
-      prowPlugin: label
-      addedBy: anyone
-    - color: fc05d7
-      description: Indicates an issue/PR is user experience (UX).
-      name: user/experience
-      target: both
-      prowPlugin: label
-      addedBy: anyone
 
 repos:
   operate-first/SRE:
