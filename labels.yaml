@@ -378,6 +378,11 @@ default:
         - name: wontfix
       target: both
       addedBy: humans
+    - color: 5319e7
+      description: Notify first-operator bot that issue should be assigned to oncall.
+      name: bot/assign-to-oncall
+      target: issue
+      addedBy: anyone
 
 repos:
   operate-first/SRE:
