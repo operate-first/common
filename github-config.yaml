@@ -42,6 +42,7 @@ orgs:
       - naved001
       - oindrillac
       - pacospace
+      - PARTHSONI95
       - quaid
       - rbo
       - rimolive
@@ -80,6 +81,10 @@ orgs:
         has_projects: false
       community:
         default_branch: main
+        has_projects: false
+      community-handbook:
+        default_branch: main
+        description: Community Handbook for Operate First contributors
         has_projects: false
       continuous-delivery:
         description: Continuous Delivery
@@ -170,6 +175,7 @@ orgs:
           blueprint: admin
           common: admin
           community: admin
+          community-handbook: admin
           continuous-delivery: admin
           continuous-deployment: admin
           curator: admin
@@ -203,6 +209,7 @@ orgs:
           blueprint: admin
           common: admin
           community: admin
+          community-handbook: admin
           continuous-delivery: admin
           continuous-deployment: admin
           curator: admin
@@ -218,6 +225,18 @@ orgs:
           template: admin
           toolbox: admin
           workshop-apps: admin
+      community-admins:
+        descriptions: Admins for community oriented repos
+        maintainers:
+          - quaid
+        members:
+          - margarethaley
+          - billburnseh
+          - durandom
+        privacy: closed
+        repos:
+          community: admin
+          community-handbook: admin
       contributors-core:
         description:
           The operate-first contributor team consists of all org members that
@@ -244,6 +263,7 @@ orgs:
           - maulikjs
           - mimotej
           - oindrillac
+          - PARTHSONI95
           - quaid
           - rbo
         privacy: closed
@@ -255,6 +275,7 @@ orgs:
           blueprint: triage
           common: triage
           community: triage
+          community-handbook: triage
           continuous-delivery: triage
           continuous-deployment: triage
           curator: triage
@@ -304,6 +325,7 @@ orgs:
           argocd-apps: write
           blueprint: write
           community: write
+          community-handbook: write
           continuous-delivery: write
           continuous-deployment: write
           curator: write
