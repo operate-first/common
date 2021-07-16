@@ -70,14 +70,14 @@ larger set of contributors to apply/remove them.
 | <a id="triage/needs-information" href="#triage/needs-information">`triage/needs-information`</a> | Indicates an issue needs more information in order to work on it. <br><br> This was previously `close/needs-information`, | humans | |
 | <a id="triage/not-reproducible" href="#triage/not-reproducible">`triage/not-reproducible`</a> | Indicates an issue can not be reproduced as described. <br><br> This was previously `close/not-reproducible`, | humans | |
 | <a id="triage/unresolved" href="#triage/unresolved">`triage/unresolved`</a> | Indicates an issue that can not or will not be resolved. <br><br> This was previously `close/unresolved`, `invalid`, `wontfix`, | humans | |
-| <a id="user/experience" href="#user/experience">`user/experience`</a> | Indicates an issue/PR is user experience (UX).| anyone |  [label](https://git.k8s.io/test-infra/prow/plugins/label) |
-| <a id="users/documentation" href="#users/documentation">`users/documentation`</a> | Indicates an issue/PR is related to end-user documentation.| anyone |  [label](https://git.k8s.io/test-infra/prow/plugins/label) |
 | <a id="¯\_(ツ)_/¯" href="#¯\_(ツ)_/¯">`¯\_(ツ)_/¯`</a> | ¯\\\_(ツ)_/¯| humans |  [shrug](https://git.k8s.io/test-infra/prow/plugins/shrug) |
+
 ## Labels that apply to all repos, only for issues
 
 | Name | Description | Added By | Prow Plugin |
 | ---- | ----------- | -------- | --- |
 | <a id="tide/merge-blocker" href="#tide/merge-blocker">`tide/merge-blocker`</a> | Denotes an issue that blocks the tide merge queue for a branch while it is open. <br><br> This was previously `merge-blocker`, | humans | |
+
 ## Labels that apply to all repos, only for PRs
 
 | Name | Description | Added By | Prow Plugin |
