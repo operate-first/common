@@ -256,8 +256,12 @@ orgs:
           - 4n4nd
           - Aaaaazzaa
           - Gregory-Pereira
+          - MichaelClifford
+          - Shreyanand
           - anishasthana
+          - aakankshaduggal
           - billburnseh
+          - chauhankaranraj
           - erikerlandson
           - fridex
           - gagansk
@@ -265,6 +269,7 @@ orgs:
           - hemajv
           - hpdempsey
           - ipolonsk
+          - isabelizimm
           - larsks
           - margarethaley
           - martinpovolny
@@ -300,19 +305,6 @@ orgs:
           template: triage
           toolbox: triage
           workshop-apps: triage
-      contributors-web:
-        description: Contributors interested in the website
-        members:
-          - MichaelClifford
-          - Shreyanand
-          - chauhankaranraj
-          - aakankshaduggal
-          - oindrillac
-          - isabelizimm
-        privacy: closed
-        repos:
-          blueprint: triage
-          operate-first.github.io: triage
       custodians:
         description: Has extra (write) permissions to be able to add issues to projects
         maintainers:
