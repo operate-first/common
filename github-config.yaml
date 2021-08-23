@@ -31,7 +31,6 @@ orgs:
       - harshad16
       - hemajv
       - hpdempsey
-      - ipolonsk
       - isabelizimm
       - KPostOffice
       - larsks
@@ -44,13 +43,13 @@ orgs:
       - naved001
       - oindrillac
       - pacospace
-      - PARTHSONI95
       - quaid
       - rbo
       - rimolive
       - SankBad
       - Shreyanand
       - skanthed
+      - suppathak
       - TreeinRandomForest
       - vpavlin
     members_can_create_repositories: false
@@ -269,7 +268,6 @@ orgs:
           - harshad16
           - hemajv
           - hpdempsey
-          - ipolonsk
           - isabelizimm
           - larsks
           - leihchen
@@ -278,8 +276,8 @@ orgs:
           - maulikjs
           - mimotej
           - oindrillac
-          - PARTHSONI95
           - quaid
+          - suppathak
           - rbo
         privacy: closed
         repos:
@@ -319,7 +317,6 @@ orgs:
           - harshad16
           - oindrillac
           - gagansk
-          - ipolonsk
         privacy: closed
         repos:
           SRE: write
