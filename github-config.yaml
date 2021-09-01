@@ -53,6 +53,7 @@ orgs:
       - skanthed
       - TreeinRandomForest
       - vpavlin
+      - schwesig
     members_can_create_repositories: false
     name: Operate First
     repos:
