@@ -53,6 +53,7 @@ orgs:
       - skanthed
       - TreeinRandomForest
       - vpavlin
+      - suppathak
     members_can_create_repositories: false
     name: Operate First
     repos:
@@ -281,6 +282,7 @@ orgs:
           - PARTHSONI95
           - quaid
           - rbo
+          - suppathak
         privacy: closed
         repos:
           SRE: triage
