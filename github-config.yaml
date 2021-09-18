@@ -54,6 +54,7 @@ orgs:
       - TreeinRandomForest
       - vpavlin
       - suppathak
+      - laxmisravyarudraraju
     members_can_create_repositories: false
     name: Operate First
     repos:
@@ -283,6 +284,7 @@ orgs:
           - quaid
           - rbo
           - suppathak
+          - laxmisravyarudraraju
         privacy: closed
         repos:
           SRE: triage
