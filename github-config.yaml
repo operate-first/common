@@ -281,6 +281,7 @@ orgs:
           - quaid
           - rbo
           - suppathak
+          - tschwesi
         privacy: closed
         repos:
           SRE: triage
