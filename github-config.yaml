@@ -20,6 +20,7 @@ orgs:
       - aakankshaduggal
       - accorvin
       - anishasthana
+      - apoorvam
       - billburnseh
       - cfchase
       - chauhankaranraj
@@ -35,6 +36,7 @@ orgs:
       - isabelizimm
       - KPostOffice
       - larsks
+      - laxmisravyarudraraju
       - leihchen
       - margarethaley
       - martinpovolny
@@ -50,11 +52,12 @@ orgs:
       - rimolive
       - SankBad
       - Shreyanand
+      - sindhuvahinis
       - skanthed
+      - thegreymanshow
       - TreeinRandomForest
       - vpavlin
       - suppathak
-      - laxmisravyarudraraju
     members_can_create_repositories: false
     name: Operate First
     repos:
@@ -258,9 +261,11 @@ orgs:
         members:
           - 4n4nd
           - Aaaaazzaa
+          - apoorvam
           - Gregory-Pereira
           - MichaelClifford
           - Shreyanand
+          - sindhuvahinis
           - anishasthana
           - aakankshaduggal
           - billburnseh
@@ -274,6 +279,7 @@ orgs:
           - ipolonsk
           - isabelizimm
           - larsks
+          - laxmisravyarudraraju
           - leihchen
           - margarethaley
           - martinpovolny
@@ -284,7 +290,7 @@ orgs:
           - quaid
           - rbo
           - suppathak
-          - laxmisravyarudraraju
+          - thegreymanshow
         privacy: closed
         repos:
           SRE: triage
