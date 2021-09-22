@@ -55,6 +55,7 @@ orgs:
       - sindhuvahinis
       - skanthed
       - thegreymanshow
+      - slntpts
       - TreeinRandomForest
       - vpavlin
       - suppathak
@@ -285,10 +286,12 @@ orgs:
           - mimotej
           - oindrillac
           - PARTHSONI95
+          - slntpts
           - quaid
           - rbo
           - schwesig
           - sindhuvahinis
+          - slntpts
           - suppathak
           - thegreymanshow
         privacy: closed
