@@ -19,6 +19,7 @@ orgs:
       - aakankshaduggal
       - accorvin
       - anishasthana
+      - apoorvam
       - billburnseh
       - cfchase
       - chauhankaranraj
@@ -34,6 +35,7 @@ orgs:
       - isabelizimm
       - KPostOffice
       - larsks
+      - laxmisravyarudraraju
       - leihchen
       - margarethaley
       - martinpovolny
@@ -50,7 +52,9 @@ orgs:
       - SankBad
       - schwesig
       - Shreyanand
+      - sindhuvahinis
       - skanthed
+      - thegreymanshow
       - TreeinRandomForest
       - vpavlin
       - suppathak
@@ -256,6 +260,7 @@ orgs:
           - HumairAK
         members:
           - 4n4nd
+          - apoorvam
           - Gregory-Pereira
           - MichaelClifford
           - Shreyanand
@@ -272,6 +277,7 @@ orgs:
           - ipolonsk
           - isabelizimm
           - larsks
+          - laxmisravyarudraraju
           - leihchen
           - margarethaley
           - martinpovolny
@@ -282,7 +288,9 @@ orgs:
           - quaid
           - rbo
           - schwesig
+          - sindhuvahinis
           - suppathak
+          - thegreymanshow
         privacy: closed
         repos:
           SRE: triage
