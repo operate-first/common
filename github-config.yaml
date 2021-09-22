@@ -48,6 +48,7 @@ orgs:
       - rbo
       - rimolive
       - SankBad
+      - schwesig
       - Shreyanand
       - skanthed
       - TreeinRandomForest
@@ -280,8 +281,8 @@ orgs:
           - PARTHSONI95
           - quaid
           - rbo
+          - schwesig
           - suppathak
-          - tschwesi
         privacy: closed
         repos:
           SRE: triage
