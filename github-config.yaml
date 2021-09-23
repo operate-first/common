@@ -357,3 +357,15 @@ orgs:
         privacy: closed
         repos:
           workshop-apps: admin
+      DevSecOps:
+        description: A team that works on the Dev Sec operations.
+        members:
+          - 4n4nd
+          - goern
+          - Gregory-Pereira
+          - harshad16
+          - HumairAK
+          - tumido
+        privacy: closed
+        repos:
+          continuous-delivery: admin
