@@ -251,17 +251,15 @@ orgs:
         repos:
           community: admin
           community-handbook: admin
-      contributors-core:
+      triagers:
         description:
-          The operate-first contributor team consists of all org members that
-          are core contributors.
+          A team that can triage.
         maintainers:
           - goern
           - tumido
           - HumairAK
         members:
           - 4n4nd
-          - apoorvam
           - Gregory-Pereira
           - MichaelClifford
           - Shreyanand
@@ -275,13 +273,10 @@ orgs:
           - harshad16
           - hemajv
           - hpdempsey
-          - ipolonsk
           - isabelizimm
           - larsks
-          - laxmisravyarudraraju
           - leihchen
           - margarethaley
-          - martinpovolny
           - maulikjs
           - mimotej
           - oindrillac
@@ -289,10 +284,7 @@ orgs:
           - quaid
           - rbo
           - schwesig
-          - sindhuvahinis
-          - slntpts
           - suppathak
-          - thegreymanshow
         privacy: closed
         repos:
           SRE: triage
