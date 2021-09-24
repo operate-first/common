@@ -44,6 +44,7 @@ orgs:
       - mimotej
       - naved001
       - oindrillac
+      - op1st
       - pacospace
       - PARTHSONI95
       - quaid
@@ -178,6 +179,7 @@ orgs:
         description: This is our SourceOps team, they keep the source fresh.
         maintainers:
           - sesheta
+          - op1st
         privacy: closed
         repos:
           SRE: admin
