@@ -141,6 +141,9 @@ orgs:
       opfcli:
         default_branch: main
         has_projects: false
+      sre-apprenticeship:
+        default_branch: main
+        description: Issue tracker for the SRE Apprenticeship
       support:
         default_branch: main
         description:
@@ -202,6 +205,7 @@ orgs:
           operate-first-twitter: admin
           operate-first.github.io: admin
           opfcli: admin
+          sre-apprenticeship: admin
           support: admin
           template: admin
           toolbox: admin
@@ -237,6 +241,7 @@ orgs:
           operate-first-twitter: admin
           operate-first.github.io: admin
           opfcli: admin
+          sre-apprenticeship: admin
           support: admin
           template: admin
           toolbox: admin
@@ -309,6 +314,7 @@ orgs:
           operate-first-twitter: triage
           operate-first.github.io: triage
           opfcli: triage
+          sre-apprenticeship: triage
           support: triage
           template: triage
           toolbox: triage
@@ -347,6 +353,7 @@ orgs:
           operate-first-twitter: write
           operate-first.github.io: write
           opfcli: write
+          sre-apprenticeship: write
           support: write
           template: write
           toolbox: write
