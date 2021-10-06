@@ -148,8 +148,7 @@ orgs:
       support:
         default_branch: main
         description:
-          This repo should serve as a central source for reporting issues with
-          ODH components on MOC.
+          This repo should serve as a central source for users to raise issues/questions/requests for Operate First.
         has_projects: false
       template:
         default_branch: main
