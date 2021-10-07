@@ -56,6 +56,12 @@ default:
       target: prs
       prowPlugin: wip
       addedBy: prow
+    - color: 7057ff
+      description: Good for newcomers
+      name: good first issue
+      target: issues
+      prowPlugin: label
+      addedBy: anyone
     - color: e11d21
       description: Categorizes issue or PR as related to a bug.
       name: kind/bug
