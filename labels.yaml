@@ -384,7 +384,7 @@ default:
         - name: wontfix
       target: both
       addedBy: humans
-    - color: 5319e7
+    - color: "5319e7"
       description: Notify first-operator bot that issue should be assigned to oncall.
       name: bot/assign-to-oncall
       target: issue
@@ -414,13 +414,13 @@ repos:
   operate-first/support:
     labels:
       - addedBy: anyone
-        color: 57BF42
+        color: 57bf42
         description: Requesting onboarding to a cluster
         name: onboarding
         prowPlugin: label
         target: issue
       - addedBy: anyone
-        color: FB7591
+        color: fb7591
         description: Requesting onboarding to ArgoCD
         name: onboarding-argocd
         prowPlugin: label
