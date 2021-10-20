@@ -381,3 +381,11 @@ orgs:
         privacy: closed
         repos:
           continuous-delivery: admin
+      Curator:
+        description: A team that works on the Curator project.
+        members:
+          - leihchen
+          - skanthed
+        privacy: closed
+        repos:
+          curator: write
