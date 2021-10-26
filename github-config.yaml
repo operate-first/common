@@ -143,6 +143,10 @@ orgs:
       opfcli:
         default_branch: main
         has_projects: false
+      schema-store:
+        default_branch: main
+        description: Schemas for kubernetes manifest validations
+        has_projects: false
       sre-apprenticeship:
         default_branch: main
         description: Issue tracker for the SRE Apprenticeship
@@ -206,6 +210,7 @@ orgs:
           operate-first-twitter: admin
           operate-first.github.io: admin
           opfcli: admin
+          schema-store: admin
           sre-apprenticeship: admin
           support: admin
           template: admin
@@ -242,6 +247,7 @@ orgs:
           operate-first-twitter: admin
           operate-first.github.io: admin
           opfcli: admin
+          schema-store: admin
           sre-apprenticeship: admin
           support: admin
           template: admin
@@ -317,6 +323,7 @@ orgs:
           operate-first-twitter: triage
           operate-first.github.io: triage
           opfcli: triage
+          schema-store: triage
           sre-apprenticeship: triage
           support: triage
           template: triage
@@ -356,6 +363,7 @@ orgs:
           operate-first-twitter: write
           operate-first.github.io: write
           opfcli: write
+          schema-store:  write
           sre-apprenticeship: write
           support: write
           template: write
