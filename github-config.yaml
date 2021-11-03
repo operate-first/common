@@ -398,3 +398,10 @@ orgs:
         privacy: closed
         repos:
           curator: write
+      odh:
+        description:
+          OpenDataHub operations
+        privacy: closed
+        members:
+          - HumairAK
+          - durandom
