@@ -32,6 +32,60 @@ default:
       target: both
       prowPlugin: label
       addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to monitoring.
+      name: area/monitoring
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to hardware.
+      name: area/hardware
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to security.
+      name: area/security
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to networking.
+      name: area/networking
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to Open Data Hub.
+      name: area/service/odh
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to ACM.
+      name: area/service/acm
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to ArgoCD.
+      name: area/service/argocd
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to Grafana.
+      name: area/service/grafana
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to user workload monitoring.
+      name: area/service/uwm
+      target: both
+      prowPlugin: label
+      addedBy: anyone
     - color: e11d21
       description: Indicates that a PR should not merge because it touches files in blocked paths.
       name: do-not-merge/blocked-paths
