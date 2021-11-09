@@ -86,6 +86,12 @@ default:
       target: both
       prowPlugin: label
       addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to Openshift Container Storage.
+      name: area/service/ocs
+      target: both
+      prowPlugin: label
+      addedBy: anyone
     - color: e11d21
       description: Indicates that a PR should not merge because it touches files in blocked paths.
       name: do-not-merge/blocked-paths
