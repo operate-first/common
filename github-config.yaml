@@ -78,10 +78,6 @@ orgs:
       apps:
         description: Operate-first application manifests
         has_projects: false
-      argocd-apps:
-        default_branch: main
-        description: "A repository to store Operate-First ArgoCD Applications "
-        has_projects: false
       blueprint:
         default_branch: main
         description: This is the blueprint for the Operate First Initiative
@@ -399,8 +395,7 @@ orgs:
         repos:
           curator: write
       odh:
-        description:
-          OpenDataHub operations
+        description: OpenDataHub operations
         privacy: closed
         members:
           - HumairAK
