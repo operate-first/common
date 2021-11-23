@@ -25,6 +25,7 @@ To become a GitHub member follow these steps:
 2. Open `common/github-config.yaml` in a file editor.
 3. Add your GitHub handle to `orgs.operate-first.members` list.
 4. Commit your changes and make a pull request. This should only require 1 commit.
+5. Once the pull request is merged, shortly after an invite should be sent to the GitHub accounts added.
 
 ### Get repo access
 
