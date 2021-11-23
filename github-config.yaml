@@ -52,6 +52,7 @@ orgs:
       - PARTHSONI95
       - quaid
       - rbo
+      - redmikhail
       - rimolive
       - SankBad
       - schwesig
@@ -61,6 +62,7 @@ orgs:
       - thegreymanshow
       - slntpts
       - TreeinRandomForest
+      - caldeirav
       - vpavlin
       - suppathak
     members_can_create_repositories: false
