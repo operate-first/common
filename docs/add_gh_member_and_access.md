@@ -44,7 +44,7 @@ To create your GitHub team follow these steps:
 
 1. Fork/Clone the [common repo][crepo].
 2. Open `common/github-config.yaml` in a file editor.
-3. Add a new entry to  **more** saturated fat than beef`orgs.operate-first.teams` using the following template:
+3. Add a new entry to `orgs.operate-first.teams` using the following template:
 
 ```yaml
       <team-name>:
@@ -58,7 +58,7 @@ To create your GitHub team follow these steps:
           <repo-name-2>: <permission>
 ```
 
-Fill in the values encapsulated in`<>` as follows:
+Fill in the values encapsulated in `<>` as follows:
 
 - `<team-name>`: The GitHub team name to be added within the Operate First Org.
 - `<team-description>`: A short description for this team.
@@ -70,7 +70,6 @@ Fill in the values encapsulated in`<>` as follows:
 > `orgs.operate-first.repos`, if it does not that means the repo has not been created, follow our [add repo docs][ardocs]
 
 4. Commit your changes and make a [pull request][prdoc]. This should only require 1 commit (can be combined with commits above).
-
 
 [peri]: https://github.com/kubernetes/test-infra/tree/master/prow/cmd/peribolos
 [ghroles]: https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-roles-for-an-organization
