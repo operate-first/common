@@ -19,21 +19,30 @@ orgs:
       - aakankshaduggal
       - accorvin
       - anishasthana
+      - apoorvam
+      - aweiteka
       - billburnseh
       - cfchase
       - chauhankaranraj
+      - codificat
+      - coghlanRH
+      - DanNiESh
+      - dystewart
       - erikerlandson
       - fridex
       - gagansk
       - gmfrasca
       - Gregory-Pereira
       - harshad16
+      - hbrock25
       - hemajv
       - hpdempsey
       - ipolonsk
       - isabelizimm
       - KPostOffice
       - larsks
+      - laxmisravyarudraraju
+      - leihchen
       - margarethaley
       - martinpovolny
       - maulikjs
@@ -41,15 +50,25 @@ orgs:
       - mimotej
       - naved001
       - oindrillac
+      - op1st
       - pacospace
+      - PARTHSONI95
       - quaid
       - rbo
+      - redmikhail
+      - riekrh
       - rimolive
       - SankBad
+      - schwesig
       - Shreyanand
+      - sindhuvahinis
       - skanthed
+      - thegreymanshow
+      - slntpts
       - TreeinRandomForest
+      - caldeirav
       - vpavlin
+      - suppathak
     members_can_create_repositories: false
     name: Operate First
     repos:
@@ -65,10 +84,6 @@ orgs:
       apps:
         description: Operate-first application manifests
         has_projects: false
-      argocd-apps:
-        default_branch: main
-        description: "A repository to store Operate-First ArgoCD Applications "
-        has_projects: false
       blueprint:
         default_branch: main
         description: This is the blueprint for the Operate First Initiative
@@ -80,6 +95,10 @@ orgs:
         has_projects: false
       community:
         default_branch: main
+        has_projects: false
+      community-handbook:
+        default_branch: main
+        description: Community Handbook for Operate First contributors
         has_projects: false
       continuous-delivery:
         description: Continuous Delivery
@@ -103,6 +122,10 @@ orgs:
         description: OpenShift 4 on Hetzner BareMetal (dedicted server)
         has_projects: false
         has_wiki: false
+      hitchhikers-guide:
+        default_branch: main
+        description: Hitchhiker's guide to Operate-first
+        has_projects: false
       installplan-operator:
         archived: true
         default_branch: main
@@ -123,11 +146,17 @@ orgs:
       opfcli:
         default_branch: main
         has_projects: false
+      schema-store:
+        default_branch: main
+        description: Schemas for kubernetes manifest validations
+        has_projects: false
+      sre-apprenticeship:
+        default_branch: main
+        description: Issue tracker for the SRE Apprenticeship
       support:
         default_branch: main
         description:
-          This repo should serve as a central source for reporting issues with
-          ODH components on MOC.
+          This repo should serve as a central source for users to raise issues/questions/requests for Operate First.
         has_projects: false
       template:
         default_branch: main
@@ -161,6 +190,7 @@ orgs:
         description: This is our SourceOps team, they keep the source fresh.
         maintainers:
           - sesheta
+          - op1st
         privacy: closed
         repos:
           SRE: admin
@@ -170,17 +200,21 @@ orgs:
           blueprint: admin
           common: admin
           community: admin
+          community-handbook: admin
           continuous-delivery: admin
           continuous-deployment: admin
           curator: admin
           espresso-series: admin
           example-acm-install: admin
           hetzner-baremetal-openshift: admin
+          hitchhikers-guide: admin
           installplan-operator: admin
           odh-dashboard: admin
           operate-first-twitter: admin
           operate-first.github.io: admin
           opfcli: admin
+          schema-store: admin
+          sre-apprenticeship: admin
           support: admin
           template: admin
           toolbox: admin
@@ -203,25 +237,40 @@ orgs:
           blueprint: admin
           common: admin
           community: admin
+          community-handbook: admin
           continuous-delivery: admin
           continuous-deployment: admin
           curator: admin
           espresso-series: admin
           example-acm-install: admin
           hetzner-baremetal-openshift: admin
+          hitchhikers-guide: admin
           installplan-operator: admin
           odh-dashboard: admin
           operate-first-twitter: admin
           operate-first.github.io: admin
           opfcli: admin
+          schema-store: admin
+          sre-apprenticeship: admin
           support: admin
           template: admin
           toolbox: admin
           workshop-apps: admin
-      contributors-core:
+      community-admins:
+        descriptions: Admins for community oriented repos
+        maintainers:
+          - quaid
+        members:
+          - margarethaley
+          - billburnseh
+          - durandom
+        privacy: closed
+        repos:
+          community: admin
+          community-handbook: admin
+      triagers:
         description:
-          The operate-first contributor team consists of all org members that
-          are core contributors.
+          A team that can triage.
         maintainers:
           - goern
           - tumido
@@ -229,23 +278,32 @@ orgs:
         members:
           - 4n4nd
           - Gregory-Pereira
+          - MichaelClifford
+          - Shreyanand
           - anishasthana
+          - aakankshaduggal
           - billburnseh
+          - chauhankaranraj
+          - codificat
+          - dystewart
           - erikerlandson
           - fridex
           - gagansk
           - harshad16
           - hemajv
           - hpdempsey
-          - ipolonsk
+          - isabelizimm
           - larsks
+          - leihchen
           - margarethaley
-          - martinpovolny
           - maulikjs
           - mimotej
           - oindrillac
+          - PARTHSONI95
           - quaid
           - rbo
+          - schwesig
+          - suppathak
         privacy: closed
         repos:
           SRE: triage
@@ -255,34 +313,25 @@ orgs:
           blueprint: triage
           common: triage
           community: triage
+          community-handbook: triage
           continuous-delivery: triage
           continuous-deployment: triage
           curator: triage
           espresso-series: triage
           example-acm-install: triage
           hetzner-baremetal-openshift: triage
+          hitchhikers-guide: triage
           installplan-operator: triage
           odh-dashboard: triage
           operate-first-twitter: triage
           operate-first.github.io: triage
           opfcli: triage
+          schema-store: triage
+          sre-apprenticeship: triage
           support: triage
           template: triage
           toolbox: triage
           workshop-apps: triage
-      contributors-web:
-        description: Contributors interested in the website
-        members:
-          - MichaelClifford
-          - Shreyanand
-          - chauhankaranraj
-          - aakankshaduggal
-          - oindrillac
-          - isabelizimm
-        privacy: closed
-        repos:
-          blueprint: triage
-          operate-first.github.io: triage
       custodians:
         description: Has extra (write) permissions to be able to add issues to projects
         maintainers:
@@ -304,17 +353,21 @@ orgs:
           argocd-apps: write
           blueprint: write
           community: write
+          community-handbook: write
           continuous-delivery: write
           continuous-deployment: write
           curator: write
           espresso-series: write
           example-acm-install: write
           hetzner-baremetal-openshift: write
+          hitchhikers-guide: write
           installplan-operator: write
           odh-dashboard: write
           operate-first-twitter: write
           operate-first.github.io: write
           opfcli: write
+          schema-store:  write
+          sre-apprenticeship: write
           support: write
           template: write
           toolbox: write
@@ -327,3 +380,29 @@ orgs:
         privacy: closed
         repos:
           workshop-apps: admin
+      DevSecOps:
+        description: A team that works on the Dev Sec operations.
+        members:
+          - 4n4nd
+          - goern
+          - Gregory-Pereira
+          - harshad16
+          - HumairAK
+          - tumido
+        privacy: closed
+        repos:
+          continuous-delivery: admin
+      Curator:
+        description: A team that works on the Curator project.
+        members:
+          - leihchen
+          - skanthed
+        privacy: closed
+        repos:
+          curator: write
+      odh:
+        description: OpenDataHub operations
+        privacy: closed
+        members:
+          - HumairAK
+          - durandom

@@ -32,6 +32,66 @@ default:
       target: both
       prowPlugin: label
       addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to monitoring.
+      name: area/monitoring
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to hardware.
+      name: area/hardware
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to security.
+      name: area/security
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to networking.
+      name: area/networking
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to Open Data Hub.
+      name: area/service/odh
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to ACM.
+      name: area/service/acm
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to ArgoCD.
+      name: area/service/argocd
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to Grafana.
+      name: area/service/grafana
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to user workload monitoring.
+      name: area/service/uwm
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
+      description: Indicates an issue/PR is related to Openshift Container Storage.
+      name: area/service/ocs
+      target: both
+      prowPlugin: label
+      addedBy: anyone
     - color: e11d21
       description: Indicates that a PR should not merge because it touches files in blocked paths.
       name: do-not-merge/blocked-paths
@@ -56,6 +116,12 @@ default:
       target: prs
       prowPlugin: wip
       addedBy: prow
+    - color: 7057ff
+      description: Good for newcomers
+      name: good first issue
+      target: issues
+      prowPlugin: label
+      addedBy: anyone
     - color: e11d21
       description: Categorizes issue or PR as related to a bug.
       name: kind/bug
@@ -378,17 +444,10 @@ default:
         - name: wontfix
       target: both
       addedBy: humans
-    - color: fc05d7
-      description: Indicates an issue/PR is related to end-user documentation.
-      name: users/documentation
-      target: both
-      prowPlugin: label
-      addedBy: anyone
-    - color: fc05d7
-      description: Indicates an issue/PR is user experience (UX).
-      name: user/experience
-      target: both
-      prowPlugin: label
+    - color: "5319e7"
+      description: Notify first-operator bot that issue should be assigned to oncall.
+      name: bot/assign-to-oncall
+      target: issue
       addedBy: anyone
 
 repos:
@@ -415,13 +474,13 @@ repos:
   operate-first/support:
     labels:
       - addedBy: anyone
-        color: 57BF42
+        color: 57bf42
         description: Requesting onboarding to a cluster
         name: onboarding
         prowPlugin: label
         target: issue
       - addedBy: anyone
-        color: FB7591
+        color: fb7591
         description: Requesting onboarding to ArgoCD
         name: onboarding-argocd
         prowPlugin: label
