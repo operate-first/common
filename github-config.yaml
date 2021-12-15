@@ -168,6 +168,9 @@ orgs:
       toolbox:
         description: Toolbox for Operate-First tooling
         has_projects: false
+      training:
+        description: All training content for users and contributors
+        has_projects: false
       workshop-apps:
         default_branch: main
         description: "Repository of ArgoCD application for workshop purposes "
