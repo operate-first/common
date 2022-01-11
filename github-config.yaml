@@ -72,6 +72,7 @@ orgs:
       - caldeirav
       - vpavlin
       - suppathak
+      - bryanmontalvan
     members_can_create_repositories: false
     name: Operate First
     repos:
