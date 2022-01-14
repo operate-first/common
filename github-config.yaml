@@ -73,7 +73,7 @@ orgs:
       - vpavlin
       - suppathak
       - bryanmontalvan
-      - ababar
+      - ajinkyababar
     members_can_create_repositories: false
     name: Operate First
     repos:
@@ -405,7 +405,7 @@ orgs:
         members:
           - leihchen
           - skanthed
-          - ababar
+          - ajinkyababar
         privacy: closed
         repos:
           curator: write
