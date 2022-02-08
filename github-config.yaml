@@ -267,6 +267,7 @@ orgs:
           support: admin
           template: admin
           toolbox: admin
+          training: admin
           workshop-apps: admin
       community-admins:
         descriptions: Admins for community oriented repos
@@ -343,6 +344,7 @@ orgs:
           support: triage
           template: triage
           toolbox: triage
+          training: triage
           workshop-apps: triage
       custodians:
         description: Has extra (write) permissions to be able to add issues to projects
@@ -419,3 +421,10 @@ orgs:
         members:
           - HumairAK
           - durandom
+      training:
+        description: Manage all training content for users and contributors
+        privacy: closed
+        members:
+          - stefwrite
+        repos:
+          training: admin
