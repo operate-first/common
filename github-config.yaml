@@ -29,6 +29,7 @@ orgs:
       - codificat
       - coghlanRH
       - DanNiESh
+      - david-martin
       - dystewart
       - erikerlandson
       - fridex
@@ -41,15 +42,18 @@ orgs:
       - hpdempsey
       - ipolonsk
       - isabelizimm
+      - jeremyeder
       - KPostOffice
       - larsks
       - laxmisravyarudraraju
       - leihchen
+      - lisa
       - margarethaley
       - martinpovolny
       - maulikjs
       - MichaelClifford
       - mimotej
+      - mmazur
       - msdisme
       - naved001
       - oindrillac
@@ -158,6 +162,10 @@ orgs:
       schema-store:
         default_branch: main
         description: Schemas for kubernetes manifest validations
+        has_projects: false
+      slo-evaluator:
+        default_branch: main
+        description: Evaluate&Store Engine for OpenSLO–defined Objectives
         has_projects: false
       sre-apprenticeship:
         default_branch: main
@@ -428,3 +436,13 @@ orgs:
           - stefwrite
         repos:
           training: admin
+      sre:
+        description: A team maintaining SRE–related projects.
+        members:
+          - david-martin
+          - jeremyeder
+          - lisa
+          - mmazur
+        privacy: closed
+        repos:
+          slo-evaluator: admin
