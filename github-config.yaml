@@ -18,11 +18,15 @@ orgs:
       - 4n4nd
       - aakankshaduggal
       - accorvin
+      - ajinkyababar
       - akrawczy
       - anishasthana
       - apoorvam
       - aweiteka
       - billburnseh
+      - bryanmontalvan
+      - caldeirav
+      - carlosGimeno
       - cfchase
       - chauhankaranraj
       - christusa
@@ -55,6 +59,7 @@ orgs:
       - mimotej
       - mmazur
       - msdisme
+      - mubariskhan96
       - naved001
       - oindrillac
       - op1st
@@ -71,17 +76,12 @@ orgs:
       - Shreyanand
       - sindhuvahinis
       - skanthed
-      - thegreymanshow
       - slntpts
-      - TreeinRandomForest
-      - caldeirav
-      - vpavlin
-      - suppathak
-      - bryanmontalvan
-      - ajinkyababar
-      - carlosGimeno
-      - mubariskhan96
       - stefwrite
+      - suppathak
+      - thegreymanshow
+      - TreeinRandomForest
+      - vpavlin
     members_can_create_repositories: false
     name: Operate First
     repos:
