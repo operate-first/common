@@ -86,11 +86,12 @@ orgs:
     members_can_create_repositories: false
     name: Operate First
     repos:
-      SRE:
+      operations:
         description:
-          This repo contains all the SRE (Site Reliability Engineering) principles
-          and guidelines for managing Operate First services
+          The sig-operations repository.
         has_projects: false
+        previously:
+          - sre
       alerts:
         default_branch: main
         description: Bots posting alerts from our clusters
@@ -214,7 +215,7 @@ orgs:
           - op1st
         privacy: closed
         repos:
-          SRE: admin
+          operations: admin
           alerts: admin
           apps: admin
           argocd-apps: admin
@@ -251,7 +252,7 @@ orgs:
           - 4n4nd
         privacy: closed
         repos:
-          SRE: admin
+          operations: admin
           alerts: admin
           apps: admin
           argocd-apps: admin
@@ -328,7 +329,7 @@ orgs:
           - suppathak
         privacy: closed
         repos:
-          SRE: triage
+          operations: triage
           alerts: triage
           apps: triage
           argocd-apps: triage
@@ -370,7 +371,7 @@ orgs:
           - ipolonsk
         privacy: closed
         repos:
-          SRE: write
+          operations: write
           alerts: write
           apps: write
           argocd-apps: write
