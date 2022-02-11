@@ -169,6 +169,10 @@ orgs:
         default_branch: main
         description: Evaluate&Store Engine for OpenSLO–defined Objectives
         has_projects: false
+      sre:
+        default_branch: main
+        description: SRE content
+        has_projects: false
       sre-apprenticeship:
         default_branch: main
         description: Issue tracker for the SRE Apprenticeship
@@ -448,3 +452,4 @@ orgs:
         privacy: closed
         repos:
           slo-evaluator: admin
+          sre: admin
