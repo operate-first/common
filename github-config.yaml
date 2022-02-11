@@ -90,8 +90,6 @@ orgs:
         description:
           The sig-operations repository.
         has_projects: false
-        previously:
-          - sre
       alerts:
         default_branch: main
         description: Bots posting alerts from our clusters
