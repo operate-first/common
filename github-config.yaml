@@ -17,12 +17,18 @@ orgs:
     members:
       - 4n4nd
       - aakankshaduggal
+      - abyrne55
       - accorvin
+      - ajinkyababar
+      - akcoskun
       - akrawczy
       - anishasthana
       - apoorvam
       - aweiteka
       - billburnseh
+      - bryanmontalvan
+      - caldeirav
+      - carlosGimeno
       - cfchase
       - chauhankaranraj
       - christusa
@@ -34,6 +40,7 @@ orgs:
       - erikerlandson
       - fridex
       - gagansk
+      - gianlucasb
       - gmfrasca
       - Gregory-Pereira
       - harshad16
@@ -55,6 +62,8 @@ orgs:
       - mimotej
       - mmazur
       - msdisme
+      - mtoslalibu
+      - mubariskhan96
       - naved001
       - oindrillac
       - op1st
@@ -72,23 +81,23 @@ orgs:
       - Shreyanand
       - sindhuvahinis
       - skanthed
-      - thegreymanshow
       - slntpts
-      - TreeinRandomForest
-      - caldeirav
-      - vpavlin
-      - suppathak
-      - bryanmontalvan
-      - ajinkyababar
-      - carlosGimeno
-      - mubariskhan96
       - stefwrite
+      - suppathak
+      - thegreymanshow
+      - TreeinRandomForest
+      - vpavlin
+      - zaoxing
     members_can_create_repositories: false
     name: Operate First
     repos:
       operations:
         description:
           The sig-operations repository.
+        has_projects: false
+      ai-for-cloud-ops:
+        default_branch: main
+        description: Boston University Collaboratory project for applying AI to cloud operations
         has_projects: false
       alerts:
         default_branch: main
@@ -281,6 +290,17 @@ orgs:
           toolbox: admin
           training: admin
           workshop-apps: admin
+      ai-for-cloud-ops:
+        description: A team maintaining AI for cloud ops collaboratory projects.
+        members:
+          - akcoskun
+          - zaoxing
+          - gianlucasb
+          - abyrne55
+          - mtoslalibu
+        privacy: closed
+        repos:
+          ai-for-cloud-ops: admin
       community-admins:
         descriptions: Admins for community oriented repos
         maintainers:
