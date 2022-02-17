@@ -135,6 +135,10 @@ orgs:
         default_branch: main
         description: Metering project for OpenShift
         has_projects: false
+      curator-operator:
+        default_branch: main
+        description: Go Operator for OpenShift metrics
+        has_projects: false
       espresso-series:
         description: This is where we plan our Expresso Series Production
         has_projects: false
