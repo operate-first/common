@@ -242,6 +242,7 @@ orgs:
           continuous-delivery: admin
           continuous-deployment: admin
           curator: admin
+          curator-operator: admin
           espresso-series: admin
           example-acm-install: admin
           hetzner-baremetal-openshift: admin
@@ -279,6 +280,7 @@ orgs:
           continuous-delivery: admin
           continuous-deployment: admin
           curator: admin
+          curator-operator: admin
           espresso-series: admin
           example-acm-install: admin
           hetzner-baremetal-openshift: admin
@@ -367,6 +369,7 @@ orgs:
           continuous-delivery: triage
           continuous-deployment: triage
           curator: triage
+          curator-operator: triage
           espresso-series: triage
           example-acm-install: triage
           hetzner-baremetal-openshift: triage
@@ -452,6 +455,7 @@ orgs:
         privacy: closed
         repos:
           curator: write
+          curator-operator: write
       odh:
         description: OpenDataHub operations
         privacy: closed
