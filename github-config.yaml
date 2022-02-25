@@ -89,6 +89,7 @@ orgs:
       - TreeinRandomForest
       - vpavlin
       - zaoxing
+      - johwes
     members_can_create_repositories: false
     name: Operate First
     repos:
