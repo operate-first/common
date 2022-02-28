@@ -86,6 +86,7 @@ orgs:
       - stefwrite
       - suppathak
       - thegreymanshow
+      - timflannagan
       - TreeinRandomForest
       - vpavlin
       - zaoxing
@@ -412,6 +413,7 @@ orgs:
           continuous-delivery: write
           continuous-deployment: write
           curator: write
+          curator-operator: write
           espresso-series: write
           example-acm-install: write
           hetzner-baremetal-openshift: write
@@ -453,6 +455,7 @@ orgs:
           - leihchen
           - skanthed
           - ajinkyababar
+          - timflannagan
         privacy: closed
         repos:
           curator: write
