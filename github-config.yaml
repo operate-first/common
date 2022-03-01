@@ -41,6 +41,7 @@ orgs:
       - fridex
       - gagansk
       - gianlucasb
+      - Gkrumbach07
       - gmfrasca
       - Gregory-Pereira
       - harshad16
@@ -466,6 +467,12 @@ orgs:
         members:
           - HumairAK
           - durandom
+          - 4n4nd
+          - Gkrumbach07
+          - Gregory-Pereira
+          - harshad16
+        repos:
+          odh-manifests: admin
       training:
         description: Manage all training content for users and contributors
         privacy: closed
