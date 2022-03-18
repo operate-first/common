@@ -449,6 +449,7 @@ orgs:
           - tumido
         privacy: closed
         repos:
+          common: admin
           continuous-delivery: admin
       Curator:
         description: A team that works on the Curator project.
