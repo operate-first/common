@@ -89,6 +89,7 @@ orgs:
       - suppathak
       - thegreymanshow
       - timflannagan
+      - tmicheli
       - TreeinRandomForest
       - vpavlin
       - zaoxing
@@ -162,6 +163,11 @@ orgs:
         default_branch: main
         description: Approve manual updates using information in a configmap
         has_projects: false
+      ionos-openshift:
+        default_branch: main
+        description: IONOS HV on OpenShift
+        has_projects: false
+        has_wiki: false
       odh-dashboard:
         has_projects: false
       operate-first-twitter:
@@ -252,6 +258,7 @@ orgs:
           hetzner-baremetal-openshift: admin
           hitchhikers-guide: admin
           installplan-operator: admin
+          ionos-openshift: admin
           odh-dashboard: admin
           operate-first-twitter: admin
           operate-first.github.io: admin
@@ -290,6 +297,7 @@ orgs:
           hetzner-baremetal-openshift: admin
           hitchhikers-guide: admin
           installplan-operator: admin
+          ionos-openshift: admin
           odh-dashboard: admin
           operate-first-twitter: admin
           operate-first.github.io: admin
@@ -379,6 +387,7 @@ orgs:
           hetzner-baremetal-openshift: triage
           hitchhikers-guide: triage
           installplan-operator: triage
+          ionos-openshift: admin
           odh-dashboard: triage
           operate-first-twitter: triage
           operate-first.github.io: triage
@@ -421,6 +430,7 @@ orgs:
           hetzner-baremetal-openshift: write
           hitchhikers-guide: write
           installplan-operator: write
+          ionos-openshift: admin
           odh-dashboard: write
           operate-first-twitter: write
           operate-first.github.io: write
@@ -493,3 +503,12 @@ orgs:
         repos:
           slo-evaluator: admin
           sre: admin
+      ionos-openshift:
+        description: A team maintaining the IONOS OpenShift project
+        members:
+          - durandom
+          - schwesig
+          - tmicheli
+        privacy: closed
+        repos:
+          ionos-openshift: admin
