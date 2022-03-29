@@ -449,6 +449,56 @@ default:
       name: bot/assign-to-oncall
       target: issue
       addedBy: anyone
+    - color: ffce30
+      description: This issue affects the Smaug cluster.
+      name: cluster/smaug
+      prowPlugin: label
+      addedBy: anyone
+    - color: ffce30
+      description: This issue affects the Balrog cluster.
+      name: cluster/balrog
+      prowPlugin: label
+      addedBy: anyone
+    - color: ffce30
+      description: This issue affects the Infra cluster.
+      name: cluster/infra
+      prowPlugin: label
+      addedBy: anyone
+    - color: ffce30
+      description: This issue affects the Rick cluster.
+      name: cluster/rick
+      prowPlugin: label
+      addedBy: anyone
+    - color: ffce30
+      description: This issue affects the Morty cluster.
+      name: cluster/morty
+      prowPlugin: label
+      addedBy: anyone
+    - color: ffce30
+      description: This issue affects the osc-cl1 cluster.
+      name: cluster/osc-cl1
+      prowPlugin: label
+      addedBy: anyone
+    - color: ffce30
+      description: This issue affects the osc-cl2 cluster.
+      name: cluster/osc-cl2
+      prowPlugin: label
+      addedBy: anyone
+    - color: ffce30
+      description: This issue affects the Curator cluster.
+      name: cluster/curator
+      prowPlugin: label
+      addedBy: anyone
+    - color: ffce30
+      description: This issue affects the OCP Prod cluster.
+      name: cluster/ocp-prod
+      prowPlugin: label
+      addedBy: anyone
+    - color: ffce30
+      description: This issue affects the OCP-Stage cluster.
+      name: cluster/ocp-stage
+      prowPlugin: label
+      addedBy: anyone
 
 repos:
   operate-first/SRE:
