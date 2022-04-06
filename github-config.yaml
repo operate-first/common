@@ -523,3 +523,16 @@ orgs:
         privacy: closed
         repos:
           ionos-openshift: admin
+      operate-first-in-action:
+        description: A team maintaining the Operate First in Action repo
+        members:
+          - durandom
+          - schwesig
+          - michaelclifford
+          - oindrillac
+          - aakankshaduggal
+          - goern
+          - tumido
+        privacy: closed
+        repos:
+          operate-first-in-action: admin
