@@ -177,6 +177,10 @@ orgs:
         has_wiki: false
       odh-dashboard:
         has_projects: false
+      operate-first-in-action:
+        default_branch: main
+        description: This repository will serve as the content hub for our 2022 summit video "Operate First In Action"
+        has_project: false
       operate-first-twitter:
         default_branch: main
         description:
