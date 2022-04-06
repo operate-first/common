@@ -11,6 +11,7 @@ Follow the steps outlined below to add your repo:
   <repo-name>:
     description: <repo-description>
     has_projects: false
+    auto_init: true
 ```
 Fill in the values encapsulated in`<>` as follows:
 
@@ -19,7 +20,9 @@ Fill in the values encapsulated in`<>` as follows:
 
 You can find a full list of available parameters [here][repo-api].
 
-4. Commit your changes and make a [pull request][prdoc]. This should only require 1 commit.
+4. Before you commit your changes, you will also need to add a team to the `github-config.yaml`. You can add a team by following step 3 of [these instructions](add_gh_member_and_access.md#Create-a-GitHub-Team).
+
+5. Commit your changes and make a [pull request][prdoc]. This should only require 1 commit.
 
 [peri]: https://github.com/kubernetes/test-infra/tree/master/prow/cmd/peribolos
 [repo-api]: https://docs.github.com/en/github-ae@latest/rest/reference/repos#create-an-organization-repository
