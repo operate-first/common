@@ -17,20 +17,36 @@ orgs:
     members:
       - 4n4nd
       - aakankshaduggal
+      - abyrne55
       - accorvin
+      - ajinkyababar
+      - akcoskun
+      - akrawczy
+      - amfred
       - anishasthana
       - apoorvam
       - aweiteka
       - billburnseh
+      - billmvt
+      - brizrobbo
+      - bryanmontalvan
+      - caldeirav
+      - carlosGimeno
       - cfchase
+      - chaitanyaenr
       - chauhankaranraj
+      - christusa
       - codificat
       - coghlanRH
       - DanNiESh
+      - david-martin
       - dystewart
       - erikerlandson
+      - flora177
       - fridex
       - gagansk
+      - gianlucasb
+      - Gkrumbach07
       - gmfrasca
       - Gregory-Pereira
       - harshad16
@@ -39,43 +55,64 @@ orgs:
       - hpdempsey
       - ipolonsk
       - isabelizimm
+      - jeremyeder
       - KPostOffice
       - larsks
       - laxmisravyarudraraju
       - leihchen
+      - lisa
       - margarethaley
       - martinpovolny
       - maulikjs
+      - mayaCostantini
       - MichaelClifford
+      - mh21
+      - MichaelTiemannOSC
       - mimotej
+      - mmazur
+      - msdisme
+      - mtoslalibu
+      - mubariskhan96
       - naved001
       - oindrillac
       - op1st
       - pacospace
       - PARTHSONI95
       - quaid
+      - R-Lawton
       - rbo
       - redmikhail
       - riekrh
       - rimolive
+      - roytman
+      - sallyom
+      - SamoKopecky
       - SankBad
       - schwesig
       - Shreyanand
       - sindhuvahinis
       - skanthed
-      - thegreymanshow
       - slntpts
-      - TreeinRandomForest
-      - caldeirav
-      - vpavlin
+      - stefwalter
+      - stefwrite
       - suppathak
+      - thegreymanshow
+      - timflannagan
+      - tmicheli
+      - TreeinRandomForest
+      - vpavlin
+      - zaoxing
+      - johwes
     members_can_create_repositories: false
     name: Operate First
     repos:
-      SRE:
+      operations:
         description:
-          This repo contains all the SRE (Site Reliability Engineering) principles
-          and guidelines for managing Operate First services
+          The sig-operations repository.
+        has_projects: false
+      ai-for-cloud-ops:
+        default_branch: main
+        description: Boston University Collaboratory project for applying AI to cloud operations
         has_projects: false
       alerts:
         default_branch: main
@@ -112,6 +149,10 @@ orgs:
         default_branch: main
         description: Metering project for OpenShift
         has_projects: false
+      curator-operator:
+        default_branch: main
+        description: Go Operator for OpenShift metrics
+        has_projects: false
       espresso-series:
         description: This is where we plan our Expresso Series Production
         has_projects: false
@@ -131,8 +172,17 @@ orgs:
         default_branch: main
         description: Approve manual updates using information in a configmap
         has_projects: false
+      ionos-openshift:
+        default_branch: main
+        description: IONOS HV on OpenShift
+        has_projects: false
+        has_wiki: false
       odh-dashboard:
         has_projects: false
+      operate-first-in-action:
+        default_branch: main
+        description: This repository will serve as the content hub for our 2022 summit video "Operate First In Action"
+        has_project: false
       operate-first-twitter:
         default_branch: main
         description:
@@ -150,6 +200,14 @@ orgs:
         default_branch: main
         description: Schemas for kubernetes manifest validations
         has_projects: false
+      slo-evaluator:
+        default_branch: main
+        description: Evaluate&Store Engine for OpenSLO–defined Objectives
+        has_projects: false
+      sre:
+        default_branch: main
+        description: SRE content
+        has_projects: false
       sre-apprenticeship:
         default_branch: main
         description: Issue tracker for the SRE Apprenticeship
@@ -164,6 +222,9 @@ orgs:
         has_projects: false
       toolbox:
         description: Toolbox for Operate-First tooling
+        has_projects: false
+      training:
+        description: All training content for users and contributors
         has_projects: false
       workshop-apps:
         default_branch: main
@@ -193,7 +254,7 @@ orgs:
           - op1st
         privacy: closed
         repos:
-          SRE: admin
+          operations: admin
           alerts: admin
           apps: admin
           argocd-apps: admin
@@ -204,11 +265,13 @@ orgs:
           continuous-delivery: admin
           continuous-deployment: admin
           curator: admin
+          curator-operator: admin
           espresso-series: admin
           example-acm-install: admin
           hetzner-baremetal-openshift: admin
           hitchhikers-guide: admin
           installplan-operator: admin
+          ionos-openshift: admin
           odh-dashboard: admin
           operate-first-twitter: admin
           operate-first.github.io: admin
@@ -230,7 +293,7 @@ orgs:
           - 4n4nd
         privacy: closed
         repos:
-          SRE: admin
+          operations: admin
           alerts: admin
           apps: admin
           argocd-apps: admin
@@ -241,11 +304,13 @@ orgs:
           continuous-delivery: admin
           continuous-deployment: admin
           curator: admin
+          curator-operator: admin
           espresso-series: admin
           example-acm-install: admin
           hetzner-baremetal-openshift: admin
           hitchhikers-guide: admin
           installplan-operator: admin
+          ionos-openshift: admin
           odh-dashboard: admin
           operate-first-twitter: admin
           operate-first.github.io: admin
@@ -255,7 +320,19 @@ orgs:
           support: admin
           template: admin
           toolbox: admin
+          training: admin
           workshop-apps: admin
+      ai-for-cloud-ops:
+        description: A team maintaining AI for cloud ops collaboratory projects.
+        members:
+          - akcoskun
+          - zaoxing
+          - gianlucasb
+          - abyrne55
+          - mtoslalibu
+        privacy: closed
+        repos:
+          ai-for-cloud-ops: admin
       community-admins:
         descriptions: Admins for community oriented repos
         maintainers:
@@ -306,7 +383,7 @@ orgs:
           - suppathak
         privacy: closed
         repos:
-          SRE: triage
+          operations: triage
           alerts: triage
           apps: triage
           argocd-apps: triage
@@ -317,11 +394,13 @@ orgs:
           continuous-delivery: triage
           continuous-deployment: triage
           curator: triage
+          curator-operator: triage
           espresso-series: triage
           example-acm-install: triage
           hetzner-baremetal-openshift: triage
           hitchhikers-guide: triage
           installplan-operator: triage
+          ionos-openshift: admin
           odh-dashboard: triage
           operate-first-twitter: triage
           operate-first.github.io: triage
@@ -331,6 +410,7 @@ orgs:
           support: triage
           template: triage
           toolbox: triage
+          training: triage
           workshop-apps: triage
       custodians:
         description: Has extra (write) permissions to be able to add issues to projects
@@ -347,7 +427,7 @@ orgs:
           - ipolonsk
         privacy: closed
         repos:
-          SRE: write
+          operations: write
           alerts: write
           apps: write
           argocd-apps: write
@@ -357,11 +437,13 @@ orgs:
           continuous-delivery: write
           continuous-deployment: write
           curator: write
+          curator-operator: write
           espresso-series: write
           example-acm-install: write
           hetzner-baremetal-openshift: write
           hitchhikers-guide: write
           installplan-operator: write
+          ionos-openshift: admin
           odh-dashboard: write
           operate-first-twitter: write
           operate-first.github.io: write
@@ -391,18 +473,68 @@ orgs:
           - tumido
         privacy: closed
         repos:
+          common: admin
           continuous-delivery: admin
       Curator:
         description: A team that works on the Curator project.
         members:
           - leihchen
           - skanthed
+          - ajinkyababar
+          - timflannagan
         privacy: closed
         repos:
           curator: write
+          curator-operator: write
       odh:
         description: OpenDataHub operations
         privacy: closed
         members:
           - HumairAK
           - durandom
+          - 4n4nd
+          - Gkrumbach07
+          - Gregory-Pereira
+          - harshad16
+        repos:
+          odh-manifests: admin
+      training:
+        description: Manage all training content for users and contributors
+        privacy: closed
+        members:
+          - stefwrite
+        repos:
+          training: admin
+      sre:
+        description: A team maintaining SRE–related projects.
+        members:
+          - david-martin
+          - jeremyeder
+          - lisa
+          - mmazur
+        privacy: closed
+        repos:
+          slo-evaluator: admin
+          sre: admin
+      ionos-openshift:
+        description: A team maintaining the IONOS OpenShift project
+        members:
+          - durandom
+          - schwesig
+          - tmicheli
+        privacy: closed
+        repos:
+          ionos-openshift: admin
+      operate-first-in-action:
+        description: A team maintaining the Operate First in Action repo
+        members:
+          - durandom
+          - schwesig
+          - michaelclifford
+          - oindrillac
+          - aakankshaduggal
+          - goern
+          - tumido
+        privacy: closed
+        repos:
+          operate-first-in-action: admin
