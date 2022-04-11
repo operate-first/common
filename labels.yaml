@@ -122,6 +122,18 @@ default:
       target: issues
       prowPlugin: label
       addedBy: anyone
+    - color: 8b55d4
+      description: Connects an issue/PR with a particular user persona
+      name: kind/academic-administrator
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: 8b55d4
+      description: Connects an issue/PR with a particular user persona
+      name: kind/academic-researcher
+      target: both
+      prowPlugin: label
+      addedBy: anyone      
     - color: e11d21
       description: Categorizes issue or PR as related to a bug.
       name: kind/bug
@@ -130,12 +142,30 @@ default:
       target: both
       prowPlugin: label
       addedBy: anyone
+    - color: 8b55d4
+      description: Connects an issue/PR with a particular user persona
+      name: kind/business-owner
+      target: both
+      prowPlugin: label
+      addedBy: anyone      
     - color: c7def8
       description: Categorizes issue or PR as related to cleaning up code, process, or technical debt.
       name: kind/cleanup
       target: both
       prowPlugin: label
       addedBy: anyone
+    - color: 8b55d4
+      description: Connects an issue/PR with a particular user persona
+      name: kind/data-engineer
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: 8b55d4
+      description: Connects an issue/PR with a particular user persona
+      name: kind/data-scientist
+      target: both
+      prowPlugin: label
+      addedBy: anyone      
     - color: e11d21
       description: Categorizes issue or PR as related to a feature/enhancement marked for deprecation.
       name: kind/deprecation
@@ -163,6 +193,12 @@ default:
       previously:
         - name: enhancement
         - name: kind/enhancement
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: 8b55d4
+      description: Connects an issue/PR with a particular user persona
+      name: kind/general-public
       target: both
       prowPlugin: label
       addedBy: anyone
@@ -202,6 +238,12 @@ default:
       target: both
       prowPlugin: label
       addedBy: anyone
+  - color: 8b55d4
+      description: Connects an issue/PR with a particular user persona
+      name: kind/open-source-developer
+      target: both
+      prowPlugin: label
+      addedBy: anyone       
     - color: d455d0
       description: Categorizes issue or PR as a support question.
       name: kind/question
@@ -211,6 +253,12 @@ default:
         - name: triage/support
       target: both
       addedBy: humans
+    - color: 8b55d4
+      description: Connects an issue/PR with a particular user persona
+      name: kind/undergrad-student
+      target: both
+      prowPlugin: label
+      addedBy: anyone      
     - color: c7def8
       description: Indicates an issue/PR is related to project web presence.
       name: kind/website
