@@ -253,6 +253,12 @@ default:
         - name: triage/support
       target: both
       addedBy: humans
+    - color: c7def8
+      description: Indicates an issue/PR is related to Special Interest Groups (SIGs)
+      name: kind/sigs
+      target: both
+      prowPlugin: label
+      addedBy: anyone
     - color: 8b55d4
       description: Connects an issue/PR with a particular user persona.
       name: kind/undergrad-student
@@ -454,6 +460,19 @@ default:
       target: both
       prowPlugin: label
       addedBy: anyone
+    - color: fef2c0
+      description: Categorizes an issue or PR as relevant to SIG Community
+      name: sig/community
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fef2c0
+      description: Categorizes an issue or PR as relevant to SIG Operations
+      name: sig/operations
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+
 
     - color: 8fc951
       description: Indicates an issue or PR is ready to be actively worked on.
