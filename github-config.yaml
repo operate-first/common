@@ -369,7 +369,8 @@ orgs:
         privacy: closed
         members:
           - quaid
-          - coglhanRH
+          - coghlanRH
+
           - stefwrite
         repos:
             blog: write
