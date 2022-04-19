@@ -63,6 +63,7 @@ orgs:
       - lisa
       - margarethaley
       - martinpovolny
+      - marroblee
       - maulikjs
       - mayaCostantini
       - MichaelClifford
@@ -207,6 +208,10 @@ orgs:
       sre:
         default_branch: main
         description: SRE content
+        has_projects: false
+      sre-u:
+        default_branch: main
+        description: SRE-U content
         has_projects: false
       sre-apprenticeship:
         default_branch: main
