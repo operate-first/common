@@ -538,3 +538,10 @@ orgs:
         privacy: closed
         repos:
           operate-first-in-action: admin
+      sre-u:
+        description: A team maintaining the Operate First, Red Hat SRE-U training
+        members:
+          - marroblee
+        privacy: closed
+        repos:
+          sre-u: admin
