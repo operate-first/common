@@ -547,6 +547,7 @@ orgs:
         description: A team maintaining the Operate First, Red Hat SRE-U training
         members:
           - marroblee
+          - hlipsig
         privacy: closed
         repos:
           sre-u: admin
