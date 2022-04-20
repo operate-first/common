@@ -340,13 +340,13 @@ orgs:
         description: Writers and reviewers of Op1st blog posts
         privacy: closed  # Keep as closed, more info: https://docs.github.com/en/rest/reference/teams#create-a-team
         members:
-          - jeremyeder
-          - david-martin
+          - aakankshaduggal
           - akrawczy
           - amfred
           - billburnseh
           - bryanmontalvan
           - coghlanRH
+          - david-martin
           - hemajv
           - hpdempsey
           - jeremyeder
@@ -356,6 +356,7 @@ orgs:
           - MichaelTiemannOSC
           - mmazur
           - msdisme
+          - oindrillac
           - quaid
           - R-Lawton
           - sallyom
