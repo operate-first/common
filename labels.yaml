@@ -57,6 +57,12 @@ default:
       prowPlugin: label
       addedBy: anyone
     - color: fc05d7
+      description: Indicates an issue/PR is related to storage.
+      name: area/storage
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
       description: Indicates an issue/PR is related to Open Data Hub.
       name: area/service/odh
       target: both
@@ -263,6 +269,12 @@ default:
       description: Connects an issue/PR with a particular user persona.
       name: kind/undergrad-student
       target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: 1D76DB
+      description: Categorizes an issue as capturing a user story
+      name: kind/user-story
+      target: issues
       prowPlugin: label
       addedBy: anyone
     - color: c7def8
