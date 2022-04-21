@@ -123,6 +123,9 @@ orgs:
       apps:
         description: Operate-first application manifests
         has_projects: false
+      blog:
+        description: Home for blog tooling, posts, and guidelines
+        has_projects: false
       blueprint:
         default_branch: main
         description: This is the blueprint for the Operate First Initiative
@@ -339,6 +342,51 @@ orgs:
         privacy: closed
         repos:
           ai-for-cloud-ops: admin
+      blog:
+        description: Writers and reviewers of Op1st blog posts
+        privacy: closed  # Keep as closed, more info: https://docs.github.com/en/rest/reference/teams#create-a-team
+        members:
+          - aakankshaduggal
+          - akrawczy
+          - amfred
+          - billburnseh
+          - bryanmontalvan
+          - coghlanRH
+          - david-martin
+          - hemajv
+          - hpdempsey
+          - jeremyeder
+          - larsks
+          - margarethaley
+          - MichaelClifford
+          - MichaelTiemannOSC
+          - mmazur
+          - msdisme
+          - oindrillac
+          - quaid
+          - R-Lawton
+          - sallyom
+          - schwesig
+          - stefwalter
+          - stefwrite
+        repos:
+          blog: triage
+      blog-editorial:
+        description: Editors who are allowed to edit and publish blog posts
+        privacy: closed
+        members:
+          - quaid
+          - coghlanRH
+          - jeremyeder
+          - stefwrite
+        repos:
+            blog: write
+      blog-publishers:
+        description: Team that can rework the blog platform and make ultimate publishing decisions
+        privacy: closed
+        members:
+          - durandom
+          - quaid
       community-admins:
         descriptions: Admins for community oriented repos
         maintainers:
