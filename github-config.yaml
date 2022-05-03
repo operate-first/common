@@ -60,6 +60,7 @@ orgs:
       - ipolonsk
       - isabelizimm
       - jacobarcarola
+      - jasonbrooks
       - jeremyeder
       - jpweiser
       - KPostOffice
@@ -385,6 +386,7 @@ orgs:
           - david-martin
           - hemajv
           - hpdempsey
+          - jasonbrooks
           - larsks
           - margarethaley
           - MichaelClifford
@@ -427,6 +429,7 @@ orgs:
           - margarethaley
           - billburnseh
           - durandom
+          - jasonbrooks
         privacy: closed
         repos:
           community: admin
