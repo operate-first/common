@@ -140,6 +140,12 @@ default:
       target: both
       prowPlugin: label
       addedBy: anyone
+    - color: 006B75
+      description: Issues about upcoming cluster upgrades.
+      name: kind/cluster-upgrade
+      target: issues
+      prowPlugin: label
+      addedBy: anyone
     - color: e11d21
       description: Categorizes issue or PR as related to a bug.
       name: kind/bug
@@ -263,6 +269,12 @@ default:
       description: Indicates an issue/PR is related to Special Interest Groups (SIGs)
       name: kind/sigs
       target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: FBCA04
+      description: Issues that clearly identify an actionable task, scoped appropriately.
+      name: kind/task
+      target: issues
       prowPlugin: label
       addedBy: anyone
     - color: 8b55d4
