@@ -109,6 +109,13 @@ orgs:
       - zaoxing
       - johwes
       - mpeters
+      - carlesarnal
+      - ericwittmann
+      - EricWittmann
+      - craicoverflow
+      - jsenko
+      - paoloantinori
+      - riprasad
     members_can_create_repositories: false
     name: Operate First
     repos:
