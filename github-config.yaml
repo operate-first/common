@@ -206,9 +206,11 @@ orgs:
           the Operate First shared Twitter Account. "
         has_projects: false
         homepage: https://twitter.com/OperateFirst
-      operate-first.github.io:
+      operate-first.github.io-old:
         has_projects: false
         has_wiki: false
+        previously:
+          - operate-first.github.io
       opfcli:
         default_branch: main
         has_projects: false
@@ -294,7 +296,7 @@ orgs:
           ionos-openshift: admin
           odh-dashboard: admin
           operate-first-twitter: admin
-          operate-first.github.io: admin
+          operate-first.github.io-old: admin
           opfcli: admin
           schema-store: admin
           sre-apprenticeship: admin
@@ -333,7 +335,7 @@ orgs:
           ionos-openshift: admin
           odh-dashboard: admin
           operate-first-twitter: admin
-          operate-first.github.io: admin
+          operate-first.github.io-old: admin
           opfcli: admin
           schema-store: admin
           sre-apprenticeship: admin
@@ -468,7 +470,7 @@ orgs:
           ionos-openshift: admin
           odh-dashboard: triage
           operate-first-twitter: triage
-          operate-first.github.io: triage
+          operate-first.github.io-old: triage
           opfcli: triage
           schema-store: triage
           sre-apprenticeship: triage
@@ -512,7 +514,7 @@ orgs:
           ionos-openshift: admin
           odh-dashboard: write
           operate-first-twitter: write
-          operate-first.github.io: write
+          operate-first.github.io-old: write
           opfcli: write
           schema-store:  write
           sre-apprenticeship: write
