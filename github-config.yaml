@@ -214,8 +214,6 @@ orgs:
       operate-first.github.io-old:
         has_projects: false
         has_wiki: false
-        previously:
-          - operate-first.github.io
       opfcli:
         default_branch: main
         has_projects: false
