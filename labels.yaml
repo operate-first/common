@@ -57,6 +57,12 @@ default:
       prowPlugin: label
       addedBy: anyone
     - color: fc05d7
+      description: Indicates an issue/PR is related to storage.
+      name: area/storage
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fc05d7
       description: Indicates an issue/PR is related to Open Data Hub.
       name: area/service/odh
       target: both
@@ -132,6 +138,12 @@ default:
       description: Connects an issue/PR with a particular user persona.
       name: kind/academic-researcher
       target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: 006B75
+      description: Issues about upcoming cluster upgrades.
+      name: kind/cluster-upgrade
+      target: issues
       prowPlugin: label
       addedBy: anyone
     - color: e11d21
@@ -253,10 +265,28 @@ default:
         - name: triage/support
       target: both
       addedBy: humans
+    - color: c7def8
+      description: Indicates an issue/PR is related to Special Interest Groups (SIGs)
+      name: kind/sigs
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: FBCA04
+      description: Issues that clearly identify an actionable task, scoped appropriately.
+      name: kind/task
+      target: issues
+      prowPlugin: label
+      addedBy: anyone
     - color: 8b55d4
       description: Connects an issue/PR with a particular user persona.
       name: kind/undergrad-student
       target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: 1D76DB
+      description: Categorizes an issue as capturing a user story
+      name: kind/user-story
+      target: issues
       prowPlugin: label
       addedBy: anyone
     - color: c7def8
@@ -454,6 +484,19 @@ default:
       target: both
       prowPlugin: label
       addedBy: anyone
+    - color: fef2c0
+      description: Categorizes an issue or PR as relevant to SIG Community
+      name: sig/community
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+    - color: fef2c0
+      description: Categorizes an issue or PR as relevant to SIG Operations
+      name: sig/operations
+      target: both
+      prowPlugin: label
+      addedBy: anyone
+
 
     - color: 8fc951
       description: Indicates an issue or PR is ready to be actively worked on.
@@ -492,59 +535,16 @@ default:
         - name: wontfix
       target: both
       addedBy: humans
-    - color: "5319e7"
-      description: Notify first-operator bot that issue should be assigned to oncall.
-      name: bot/assign-to-oncall
-      target: issue
-      addedBy: anyone
-    - color: ffce30
-      description: This issue affects the Smaug cluster.
-      name: cluster/smaug
+    - color: fc05d7
+      description: Indicates an issue/PR is related to end-user documentation.
+      name: users/documentation
+      target: both
       prowPlugin: label
       addedBy: anyone
-    - color: ffce30
-      description: This issue affects the Balrog cluster.
-      name: cluster/balrog
-      prowPlugin: label
-      addedBy: anyone
-    - color: ffce30
-      description: This issue affects the Infra cluster.
-      name: cluster/infra
-      prowPlugin: label
-      addedBy: anyone
-    - color: ffce30
-      description: This issue affects the Rick cluster.
-      name: cluster/rick
-      prowPlugin: label
-      addedBy: anyone
-    - color: ffce30
-      description: This issue affects the Morty cluster.
-      name: cluster/morty
-      prowPlugin: label
-      addedBy: anyone
-    - color: ffce30
-      description: This issue affects the osc-cl1 cluster.
-      name: cluster/osc-cl1
-      prowPlugin: label
-      addedBy: anyone
-    - color: ffce30
-      description: This issue affects the osc-cl2 cluster.
-      name: cluster/osc-cl2
-      prowPlugin: label
-      addedBy: anyone
-    - color: ffce30
-      description: This issue affects the Curator cluster.
-      name: cluster/curator
-      prowPlugin: label
-      addedBy: anyone
-    - color: ffce30
-      description: This issue affects the OCP Prod cluster.
-      name: cluster/ocp-prod
-      prowPlugin: label
-      addedBy: anyone
-    - color: ffce30
-      description: This issue affects the OCP-Stage cluster.
-      name: cluster/ocp-stage
+    - color: fc05d7
+      description: Indicates an issue/PR is user experience (UX).
+      name: user/experience
+      target: both
       prowPlugin: label
       addedBy: anyone
 

@@ -39,6 +39,7 @@ orgs:
       - codificat
       - coghlanRH
       - DanNiESh
+      - dastergon
       - david-martin
       - dystewart
       - erikerlandson
@@ -52,6 +53,7 @@ orgs:
       - harshad16
       - hbrock25
       - hemajv
+      - hlipsig
       - hpdempsey
       - ipolonsk
       - isabelizimm
@@ -63,6 +65,7 @@ orgs:
       - lisa
       - margarethaley
       - martinpovolny
+      - marroblee
       - maulikjs
       - mayaCostantini
       - MichaelClifford
@@ -82,6 +85,7 @@ orgs:
       - R-Lawton
       - rbo
       - redmikhail
+      - rh-tmichels
       - riekrh
       - rimolive
       - roytman
@@ -93,9 +97,11 @@ orgs:
       - sindhuvahinis
       - skanthed
       - slntpts
+      - Spirit328
       - stefwalter
       - stefwrite
       - suppathak
+      - tgau
       - thegreymanshow
       - timflannagan
       - tmicheli
@@ -103,6 +109,15 @@ orgs:
       - vpavlin
       - zaoxing
       - johwes
+      - mpeters
+      - carlesarnal
+      - ericwittmann
+      - EricWittmann
+      - craicoverflow
+      - jsenko
+      - paoloantinori
+      - riprasad
+      - shreekarSS
     members_can_create_repositories: false
     name: Operate First
     repos:
@@ -120,6 +135,9 @@ orgs:
         has_projects: false
       apps:
         description: Operate-first application manifests
+        has_projects: false
+      blog:
+        description: Home for blog tooling, posts, and guidelines
         has_projects: false
       blueprint:
         default_branch: main
@@ -193,6 +211,11 @@ orgs:
       operate-first.github.io:
         has_projects: false
         has_wiki: false
+        previously:
+          - website-ng
+      operate-first.github.io-old:
+        has_projects: false
+        has_wiki: false
       opfcli:
         default_branch: main
         has_projects: false
@@ -207,6 +230,10 @@ orgs:
       sre:
         default_branch: main
         description: SRE content
+        has_projects: false
+      sre-u:
+        default_branch: main
+        description: SRE-U content
         has_projects: false
       sre-apprenticeship:
         default_branch: main
@@ -275,6 +302,7 @@ orgs:
           odh-dashboard: admin
           operate-first-twitter: admin
           operate-first.github.io: admin
+          operate-first.github.io-old: admin
           opfcli: admin
           schema-store: admin
           sre-apprenticeship: admin
@@ -314,6 +342,7 @@ orgs:
           odh-dashboard: admin
           operate-first-twitter: admin
           operate-first.github.io: admin
+          operate-first.github.io-old: admin
           opfcli: admin
           schema-store: admin
           sre-apprenticeship: admin
@@ -333,6 +362,51 @@ orgs:
         privacy: closed
         repos:
           ai-for-cloud-ops: admin
+      blog:
+        description: Writers and reviewers of Op1st blog posts
+        privacy: closed  # Keep as closed, more info: https://docs.github.com/en/rest/reference/teams#create-a-team
+        members:
+          - aakankshaduggal
+          - akrawczy
+          - amfred
+          - billburnseh
+          - bryanmontalvan
+          - coghlanRH
+          - david-martin
+          - hemajv
+          - hpdempsey
+          - jeremyeder
+          - larsks
+          - margarethaley
+          - MichaelClifford
+          - MichaelTiemannOSC
+          - mmazur
+          - msdisme
+          - oindrillac
+          - quaid
+          - R-Lawton
+          - sallyom
+          - schwesig
+          - stefwalter
+          - stefwrite
+        repos:
+          blog: triage
+      blog-editorial:
+        description: Editors who are allowed to edit and publish blog posts
+        privacy: closed
+        members:
+          - quaid
+          - coghlanRH
+          - jeremyeder
+          - stefwrite
+        repos:
+            blog: write
+      blog-publishers:
+        description: Team that can rework the blog platform and make ultimate publishing decisions
+        privacy: closed
+        members:
+          - durandom
+          - quaid
       community-admins:
         descriptions: Admins for community oriented repos
         maintainers:
@@ -404,6 +478,7 @@ orgs:
           odh-dashboard: triage
           operate-first-twitter: triage
           operate-first.github.io: triage
+          operate-first.github.io-old: triage
           opfcli: triage
           schema-store: triage
           sre-apprenticeship: triage
@@ -424,7 +499,8 @@ orgs:
           - harshad16
           - oindrillac
           - gagansk
-          - ipolonsk
+          - Gregory-Pereira
+          - dystewart
         privacy: closed
         repos:
           operations: write
@@ -447,6 +523,7 @@ orgs:
           odh-dashboard: write
           operate-first-twitter: write
           operate-first.github.io: write
+          operate-first.github.io-old: write
           opfcli: write
           schema-store:  write
           sre-apprenticeship: write
@@ -538,3 +615,11 @@ orgs:
         privacy: closed
         repos:
           operate-first-in-action: admin
+      sre-u:
+        description: A team maintaining the Operate First, Red Hat SRE-U training
+        members:
+          - marroblee
+          - hlipsig
+        privacy: closed
+        repos:
+          sre-u: admin
