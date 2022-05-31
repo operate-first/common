@@ -365,6 +365,11 @@ orgs:
       blog:
         description: Writers and reviewers of Op1st blog posts
         privacy: closed  # Keep as closed, more info: https://docs.github.com/en/rest/reference/teams#create-a-team
+        maintainers:
+          - quaid
+          - jeremyeder
+          - mhild
+          - mmazur
         members:
           - aakankshaduggal
           - akrawczy
@@ -394,6 +399,11 @@ orgs:
       blog-editorial:
         description: Editors who are allowed to edit and publish blog posts
         privacy: closed
+        maintainers:
+          - quaid
+          - jeremyeder
+          - mhild
+          - mmazur
         members:
           - quaid
           - coghlanRH
@@ -404,9 +414,11 @@ orgs:
       blog-publishers:
         description: Team that can rework the blog platform and make ultimate publishing decisions
         privacy: closed
-        members:
+        maintainers:
           - durandom
           - quaid
+        repos:
+          blog: admin
       community-admins:
         descriptions: Admins for community oriented repos
         maintainers:
