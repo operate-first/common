@@ -635,3 +635,13 @@ orgs:
         privacy: closed
         repos:
           sre-u: admin
+      website:
+        description: A team maintaining any websites/webpages for the project
+        maintainers:
+          bryanmontalvan
+          quaid
+          schwesig
+        members:
+          stefwrite
+        repos:
+          operate-first.github.io: admin
