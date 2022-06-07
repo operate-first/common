@@ -126,8 +126,7 @@ orgs:
     name: Operate First
     repos:
       operations:
-        description:
-          The sig-operations repository.
+        description: The sig-operations repository.
         has_projects: false
       ai-for-cloud-ops:
         default_branch: main
@@ -244,8 +243,7 @@ orgs:
         description: Issue tracker for the SRE Apprenticeship
       support:
         default_branch: main
-        description:
-          This repo should serve as a central source for users to raise issues/questions/requests for Operate First.
+        description: This repo should serve as a central source for users to raise issues/questions/requests for Operate First.
         has_projects: false
       template:
         default_branch: main
@@ -368,11 +366,11 @@ orgs:
           ai-for-cloud-ops: admin
       blog:
         description: Writers and reviewers of Op1st blog posts
-        privacy: closed  # Keep as closed, more info: https://docs.github.com/en/rest/reference/teams#create-a-team
+        privacy: closed # Keep as closed, more info: https://docs.github.com/en/rest/reference/teams#create-a-team
         maintainers:
           - quaid
           - jeremyeder
-          - mhild
+          - durandom
           - mmazur
         members:
           - aakankshaduggal
@@ -384,15 +382,12 @@ orgs:
           - david-martin
           - hemajv
           - hpdempsey
-          - jeremyeder
           - larsks
           - margarethaley
           - MichaelClifford
           - MichaelTiemannOSC
-          - mmazur
           - msdisme
           - oindrillac
-          - quaid
           - R-Lawton
           - sallyom
           - schwesig
@@ -406,15 +401,13 @@ orgs:
         maintainers:
           - quaid
           - jeremyeder
-          - mhild
+          - durandom
           - mmazur
         members:
-          - quaid
           - coghlanRH
-          - jeremyeder
           - stefwrite
         repos:
-            blog: write
+          blog: write
       blog-publishers:
         description: Team that can rework the blog platform and make ultimate publishing decisions
         privacy: closed
@@ -436,8 +429,7 @@ orgs:
           community: admin
           community-handbook: admin
       triagers:
-        description:
-          A team that can triage.
+        description: A team that can triage.
         maintainers:
           - goern
           - tumido
@@ -541,7 +533,7 @@ orgs:
           operate-first.github.io: write
           operate-first.github.io-old: write
           opfcli: write
-          schema-store:  write
+          schema-store: write
           sre-apprenticeship: write
           support: write
           template: write
