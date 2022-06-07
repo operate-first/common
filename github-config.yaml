@@ -638,10 +638,10 @@ orgs:
       website:
         description: A team maintaining any websites/webpages for the project
         maintainers:
-          bryanmontalvan
-          quaid
-          schwesig
+          - bryanmontalvan
+          - quaid
+          - schwesig
         members:
-          stefwrite
+          - stefwrite
         repos:
           operate-first.github.io: admin
