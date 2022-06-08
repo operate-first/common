@@ -88,7 +88,6 @@ orgs:
       - PARTHSONI95
       - quaid
       - R-Lawton
-      - rbo
       - redmikhail
       - rh-tmichels
       - riekrh
@@ -125,6 +124,7 @@ orgs:
       - riprasad
       - shreekarSS
       - traytorous
+      - veniceofcode
       - gshahrouzi
     members_can_create_repositories: false
     name: Operate First
