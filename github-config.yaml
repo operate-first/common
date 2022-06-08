@@ -238,7 +238,7 @@ orgs:
         description: SRE content
         has_projects: false
       sre-u:
-        default_branch: main
+        default_branch: master
         description: SRE-U content
         has_projects: false
       sre-apprenticeship:
