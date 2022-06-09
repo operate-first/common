@@ -231,6 +231,10 @@ orgs:
         default_branch: main
         description: Schemas for kubernetes manifest validations
         has_projects: false
+      service-catalog:
+        default_branch: main
+        description: Service catalog for the operate-first community cloud
+        has_projects: false
       slo-evaluator:
         default_branch: main
         description: Evaluate&Store Engine for OpenSLO–defined Objectives
@@ -312,6 +316,7 @@ orgs:
           operate-first.github.io-old: admin
           opfcli: admin
           schema-store: admin
+          service-catalog: admin
           sre-apprenticeship: admin
           support: admin
           template: admin
@@ -352,6 +357,7 @@ orgs:
           operate-first.github.io-old: admin
           opfcli: admin
           schema-store: admin
+          service-catalog: admin
           sre-apprenticeship: admin
           support: admin
           template: admin
@@ -496,6 +502,7 @@ orgs:
           operate-first.github.io-old: triage
           opfcli: triage
           schema-store: triage
+          service-catalog: triage
           sre-apprenticeship: triage
           support: triage
           template: triage
@@ -541,6 +548,7 @@ orgs:
           operate-first.github.io-old: write
           opfcli: write
           schema-store: write
+          service-catalog: write
           sre-apprenticeship: write
           support: write
           template: write
