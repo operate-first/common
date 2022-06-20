@@ -4,6 +4,7 @@ orgs:
       - durandom
       - goern
       - HumairAK
+      - schwesig
       - sesheta
       - tumido
     billing_email: mhild@redhat.com
@@ -99,7 +100,6 @@ orgs:
       - sallyom
       - SamoKopecky
       - SankBad
-      - schwesig
       - Shreyanand
       - sindhuvahinis
       - skanthed
