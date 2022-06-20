@@ -4,6 +4,7 @@ orgs:
       - durandom
       - goern
       - HumairAK
+      - schwesig
       - sesheta
       - tumido
     billing_email: mhild@redhat.com
