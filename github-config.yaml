@@ -231,6 +231,18 @@ orgs:
       opfcli:
         default_branch: main
         has_projects: false
+      peribolos-as-a-service:
+        description: Declarative GitHub Organization management via Peribolos as a service
+        has_projects: false
+        has_wiki: false
+      probot-extensions:
+        description: Extensions to Probot App when run as a service
+        has_projects: false
+        has_wiki: false
+      probot-template:
+        description: Template for Probot on Kubernetes
+        has_projects: false
+        has_wiki: false
       schema-store:
         default_branch: main
         description: Schemas for kubernetes manifest validations
@@ -319,6 +331,9 @@ orgs:
           operate-first.github.io: admin
           operate-first.github.io-old: admin
           opfcli: admin
+          peribolos-as-a-service: admin
+          probot-extensions: admin
+          probot-template: admin
           schema-store: admin
           service-catalog: admin
           sre-apprenticeship: admin
@@ -360,6 +375,9 @@ orgs:
           operate-first.github.io: admin
           operate-first.github.io-old: admin
           opfcli: admin
+          peribolos-as-a-service: admin
+          probot-extensions: admin
+          probot-template: admin
           schema-store: admin
           service-catalog: admin
           sre-apprenticeship: admin
@@ -505,6 +523,9 @@ orgs:
           operate-first.github.io: triage
           operate-first.github.io-old: triage
           opfcli: triage
+          peribolos-as-a-service: triage
+          probot-extensions: triage
+          probot-template: triage
           schema-store: triage
           service-catalog: triage
           sre-apprenticeship: triage

@@ -497,7 +497,6 @@ default:
       prowPlugin: label
       addedBy: anyone
 
-
     - color: 8fc951
       description: Indicates an issue or PR is ready to be actively worked on.
       name: triage/accepted
@@ -583,3 +582,33 @@ repos:
         name: onboarding-argocd
         prowPlugin: label
         target: issue
+
+  operate-first/probot-extensions:
+    labels:
+      - color: 76D006
+        description: Automated release trigger
+        name: kind/release
+        target: both
+        addedBy: humans
+      - color: EDEDED
+        description: Marks issues as released
+        name: released
+        target: both
+        addedBy: anyone
+  operate-first/peribolos-as-a-service:
+    labels:
+      - color: 76D006
+        description: Automated release trigger
+        name: kind/release
+        target: both
+        addedBy: humans
+      - color: EDEDED
+        description: Marks issues as released
+        name: released
+        target: both
+        addedBy: anyone
+      - color: 7C1D9E
+        description: Automated promotion of deployment between environments
+        name: kind/promote
+        target: both
+        addedBy: humans
