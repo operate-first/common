@@ -114,6 +114,7 @@ orgs:
       - timflannagan
       - tmicheli
       - TreeinRandomForest
+      - tssala23
       - uffish
       - VannTen
       - vpavlin
@@ -245,6 +246,10 @@ orgs:
         description: Template for Probot on Kubernetes
         has_projects: false
         has_wiki: false
+      robozome:
+        default_branch: main
+        description: Project to automate issue processing for Operate First
+        has_projects: false
       schema-store:
         default_branch: main
         description: Schemas for kubernetes manifest validations
@@ -336,6 +341,7 @@ orgs:
           peribolos-as-a-service: admin
           probot-extensions: admin
           probot-template: admin
+          robozome: admin
           schema-store: admin
           service-catalog: admin
           sre-apprenticeship: admin
@@ -380,6 +386,7 @@ orgs:
           peribolos-as-a-service: admin
           probot-extensions: admin
           probot-template: admin
+          robozome: admin
           schema-store: admin
           service-catalog: admin
           sre-apprenticeship: admin
@@ -574,6 +581,7 @@ orgs:
           operate-first.github.io: write
           operate-first.github.io-old: write
           opfcli: write
+          robozome: write
           schema-store: write
           service-catalog: write
           sre-apprenticeship: write
@@ -640,6 +648,7 @@ orgs:
           - jeremyeder
           - lisa
           - mmazur
+          - uffish
         privacy: closed
         repos:
           slo-evaluator: admin
