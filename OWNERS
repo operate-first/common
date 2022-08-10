@@ -1,6 +1,5 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 approvers:
-  - 4n4nd
   - durandom
   - goern
   - HumairAK
@@ -8,7 +7,6 @@ approvers:
   - schwesig
   - tumido
 reviewers:
-  - 4n4nd
   - durandom
   - goern
   - harshad16

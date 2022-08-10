@@ -18,12 +18,14 @@ orgs:
     members:
       - 4n4nd
       - aakankshaduggal
+      - abirami-dhayalan
       - abyrne55
       - accorvin
       - ajinkyababar
       - akcoskun
       - akrawczy
       - amfred
+      - andreaTP
       - anishasthana
       - apoorvam
       - AvRajath
@@ -33,6 +35,7 @@ orgs:
       - brizrobbo
       - bryanmontalvan
       - caldeirav
+      - carlesarnal
       - carlosGimeno
       - cfchase
       - chaitanyaenr
@@ -45,42 +48,46 @@ orgs:
       - david-martin
       - dofinn
       - dystewart
+      - EricWittmann
       - erikerlandson
       - flora177
-      - fridex
       - gagansk
       - Gaikanomer9
       - gianlucasb
       - Gkrumbach07
       - gmfrasca
       - Gregory-Pereira
+      - gshahrouzi
       - harshad16
       - hbrock25
       - hemajv
       - hlipsig
       - hpdempsey
       - ipolonsk
-      - isabelizimm
       - jacobarcarola
       - jasonbrooks
       - jeremyeder
+      - johwes
       - jpweiser
+      - jsenko
       - KPostOffice
       - larsks
       - laxmisravyarudraraju
       - leihchen
       - lisa
       - margarethaley
-      - martinpovolny
       - marroblee
+      - martinpovolny
       - maulikjs
       - mayaCostantini
-      - MichaelClifford
       - mh21
+      - MichaelClifford
       - MichaelTiemannOSC
+      - MightyNerdEric
       - mimotej
       - mmazur
       - Mohammad-nassar10
+      - mpeters
       - msdisme
       - mtoslalibu
       - mubariskhan96
@@ -88,19 +95,24 @@ orgs:
       - oindrillac
       - op1st
       - pacospace
+      - paoloantinori
       - PARTHSONI95
       - quaid
       - R-Lawton
+      - ravitejamanepalli
       - rbo
       - redmikhail
+      - revit13
       - rh-tmichels
       - riekrh
       - rimolive
+      - riprasad
       - roytman
-      - ravitejamanepalli
+      - rynofinn
       - sallyom
       - SamoKopecky
       - SankBad
+      - shreekarSS
       - Shreyanand
       - sindhuvahinis
       - skanthed
@@ -114,29 +126,14 @@ orgs:
       - thegreymanshow
       - timflannagan
       - tmicheli
+      - traytorous
       - TreeinRandomForest
       - tssala23
       - uffish
       - VannTen
+      - veniceofcode
       - vpavlin
       - zaoxing
-      - johwes
-      - mpeters
-      - carlesarnal
-      - ericwittmann
-      - EricWittmann
-      - andreaTP
-      - jsenko
-      - paoloantinori
-      - riprasad
-      - shreekarSS
-      - traytorous
-      - veniceofcode
-      - gshahrouzi
-      - revit13
-      - abirami-dhayalan
-      - MightyNerdEric
-      - rynofinn
     members_can_create_repositories: false
     name: Operate First
     repos:
@@ -305,9 +302,7 @@ orgs:
           - quaid
           - MichaelClifford
           - Shreyanand
-          - pacospace
           - oindrillac
-          - isabelizimm
         privacy: closed
         repos:
           espresso-series: maintain
@@ -360,7 +355,6 @@ orgs:
           - tumido
           - HumairAK
         members:
-          - 4n4nd
           - larsks
         privacy: closed
         repos:
@@ -404,7 +398,6 @@ orgs:
         members:
           - akcoskun
           - zaoxing
-          - gianlucasb
           - abyrne55
           - mtoslalibu
         privacy: closed
@@ -484,23 +477,19 @@ orgs:
           - tumido
           - HumairAK
         members:
-          - 4n4nd
           - Gregory-Pereira
           - MichaelClifford
           - Shreyanand
           - anishasthana
           - aakankshaduggal
           - billburnseh
-          - chauhankaranraj
           - codificat
           - dystewart
           - erikerlandson
-          - fridex
           - gagansk
           - harshad16
           - hemajv
           - hpdempsey
-          - isabelizimm
           - larsks
           - leihchen
           - margarethaley
@@ -605,7 +594,6 @@ orgs:
       DevSecOps:
         description: A team that works on the Dev Sec operations.
         members:
-          - 4n4nd
           - goern
           - Gregory-Pereira
           - harshad16
@@ -633,7 +621,6 @@ orgs:
         members:
           - HumairAK
           - durandom
-          - 4n4nd
           - Gkrumbach07
           - Gregory-Pereira
           - harshad16
