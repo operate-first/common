@@ -24,14 +24,17 @@ orgs:
       - ajinkyababar
       - akcoskun
       - akrawczy
+      - aleskandro
       - amfred
       - andreaTP
       - anishasthana
       - apoorvam
       - AvRajath
       - aweiteka
+      - bdlink
       - billburnseh
       - billmvt
+      - binnes
       - brizrobbo
       - bryanmontalvan
       - caldeirav
@@ -40,12 +43,14 @@ orgs:
       - cfchase
       - chaitanyaenr
       - chauhankaranraj
+      - cheesesashimi
       - christusa
       - codificat
       - coghlanRH
       - DanNiESh
       - dastergon
       - david-martin
+      - dmueller2001
       - dofinn
       - dystewart
       - EricWittmann
@@ -65,6 +70,7 @@ orgs:
       - hpdempsey
       - ipolonsk
       - jacobarcarola
+      - JaimeMagiera
       - jasonbrooks
       - jeremyeder
       - johwes
@@ -75,6 +81,8 @@ orgs:
       - laxmisravyarudraraju
       - leihchen
       - lisa
+      - lmzuccarelli
+      - LorbusChris
       - margarethaley
       - marroblee
       - martinpovolny
@@ -111,7 +119,9 @@ orgs:
       - rynofinn
       - sallyom
       - SamoKopecky
+      - sandrobonazzola
       - SankBad
+      - sherine-k
       - shreekarSS
       - Shreyanand
       - sindhuvahinis
@@ -126,6 +136,7 @@ orgs:
       - thegreymanshow
       - timflannagan
       - tmicheli
+      - travier
       - traytorous
       - TreeinRandomForest
       - tssala23
@@ -133,6 +144,7 @@ orgs:
       - VannTen
       - veniceofcode
       - vpavlin
+      - vrutkovs
       - zaoxing
     members_can_create_repositories: false
     name: Operate First
