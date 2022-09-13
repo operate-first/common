@@ -300,6 +300,10 @@ orgs:
       training:
         description: All training content for users and contributors
         has_projects: false
+      utility-scripts:
+        description: A location to hold scripts related to non-openshift cloud resources.
+        has_projects: false
+        has_wiki: false
       workshop-apps:
         default_branch: main
         description: "Repository of ArgoCD application for workshop purposes "
