@@ -612,3 +612,15 @@ repos:
         name: kind/promote
         target: both
         addedBy: humans
+  operate-first/service-catalog:
+    labels:
+      - color: c7def8
+        description: Related to a backstage plugin in the service catalog
+        name: kind/plugin
+        target: both
+        addedBy: humans
+      - color: c7def8
+        description: Related to creating a system inside the service catalog
+        name: kind/system-definition
+        target: both
+        addedBy: humans
