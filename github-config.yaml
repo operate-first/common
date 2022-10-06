@@ -4,6 +4,7 @@ orgs:
       - durandom
       - goern
       - HumairAK
+      - schwesig
       - sesheta
       - tumido
     billing_email: mhild@redhat.com
@@ -15,64 +16,88 @@ orgs:
     has_repository_projects: false
     location: ""
     members:
-      - 4n4nd
       - aakankshaduggal
+      - abirami-dhayalan
       - abyrne55
       - accorvin
       - ajinkyababar
       - akcoskun
       - akrawczy
+      - aleskandro
       - amfred
+      - andreaTP
       - anishasthana
       - apoorvam
+      - AvRajath
       - aweiteka
+      - bdlink
       - billburnseh
       - billmvt
+      - binnes
       - brizrobbo
       - bryanmontalvan
       - caldeirav
+      - carlesarnal
       - carlosGimeno
       - cfchase
       - chaitanyaenr
       - chauhankaranraj
+      - cheesesashimi
       - christusa
       - codificat
       - coghlanRH
+      - cooktheryan
+      - cyberox
       - DanNiESh
       - dastergon
       - david-martin
+      - djach7
+      - dmueller2001
+      - dofinn
       - dystewart
+      - EricWittmann
       - erikerlandson
       - flora177
-      - fridex
       - gagansk
+      - Gaikanomer9
       - gianlucasb
       - Gkrumbach07
       - gmfrasca
       - Gregory-Pereira
+      - gshahrouzi
       - harshad16
       - hbrock25
       - hemajv
       - hlipsig
       - hpdempsey
       - ipolonsk
-      - isabelizimm
+      - jacobarcarola
+      - JaimeMagiera
+      - jasonbrooks
       - jeremyeder
+      - johwes
+      - jpweiser
+      - jsenko
       - KPostOffice
       - larsks
       - laxmisravyarudraraju
       - leihchen
       - lisa
+      - lmzuccarelli
+      - LorbusChris
       - margarethaley
-      - martinpovolny
       - marroblee
+      - martinpovolny
       - maulikjs
       - mayaCostantini
-      - MichaelClifford
       - mh21
+      - MichaelClifford
       - MichaelTiemannOSC
+      - MightyNerdEric
       - mimotej
       - mmazur
+      - Mohammad-nassar10
+      - mpeters
       - msdisme
       - mtoslalibu
       - mubariskhan96
@@ -80,19 +105,29 @@ orgs:
       - oindrillac
       - op1st
       - pacospace
+      - paoloantinori
       - PARTHSONI95
       - quaid
       - R-Lawton
+      - ravitejamanepalli
       - rbo
       - redmikhail
+      - revit13
       - rh-tmichels
       - riekrh
       - rimolive
+      - riprasad
+      - roastdeer
+      - RobotSail
       - roytman
+      - rynofinn
+      - saadullah01
       - sallyom
       - SamoKopecky
+      - sandrobonazzola
       - SankBad
-      - schwesig
+      - sherine-k
+      - shreekarSS
       - Shreyanand
       - sindhuvahinis
       - skanthed
@@ -100,30 +135,27 @@ orgs:
       - Spirit328
       - stefwalter
       - stefwrite
+      - SuJingyu111
       - suppathak
       - tgau
       - thegreymanshow
       - timflannagan
       - tmicheli
+      - travier
+      - traytorous
       - TreeinRandomForest
+      - tssala23
+      - uffish
+      - VannTen
+      - veniceofcode
       - vpavlin
+      - vrutkovs
       - zaoxing
-      - johwes
-      - mpeters
-      - carlesarnal
-      - ericwittmann
-      - EricWittmann
-      - craicoverflow
-      - jsenko
-      - paoloantinori
-      - riprasad
-      - shreekarSS
     members_can_create_repositories: false
     name: Operate First
     repos:
       operations:
-        description:
-          The sig-operations repository.
+        description: The sig-operations repository.
         has_projects: false
       ai-for-cloud-ops:
         default_branch: main
@@ -219,9 +251,29 @@ orgs:
       opfcli:
         default_branch: main
         has_projects: false
+      peribolos-as-a-service:
+        description: Declarative GitHub Organization management via Peribolos as a service
+        has_projects: false
+        has_wiki: false
+      probot-extensions:
+        description: Extensions to Probot App when run as a service
+        has_projects: false
+        has_wiki: false
+      probot-template:
+        description: Template for Probot on Kubernetes
+        has_projects: false
+        has_wiki: false
+      robozome:
+        default_branch: main
+        description: Project to automate issue processing for Operate First
+        has_projects: false
       schema-store:
         default_branch: main
         description: Schemas for kubernetes manifest validations
+        has_projects: false
+      service-catalog:
+        default_branch: main
+        description: Service catalog for the operate-first community cloud
         has_projects: false
       slo-evaluator:
         default_branch: main
@@ -232,7 +284,7 @@ orgs:
         description: SRE content
         has_projects: false
       sre-u:
-        default_branch: main
+        default_branch: master
         description: SRE-U content
         has_projects: false
       sre-apprenticeship:
@@ -240,8 +292,7 @@ orgs:
         description: Issue tracker for the SRE Apprenticeship
       support:
         default_branch: main
-        description:
-          This repo should serve as a central source for users to raise issues/questions/requests for Operate First.
+        description: This repo should serve as a central source for users to raise issues/questions/requests for Operate First.
         has_projects: false
       template:
         default_branch: main
@@ -253,6 +304,10 @@ orgs:
       training:
         description: All training content for users and contributors
         has_projects: false
+      utility-scripts:
+        description: A location to hold scripts related to non-openshift cloud resources.
+        has_projects: false
+        has_wiki: false
       workshop-apps:
         default_branch: main
         description: "Repository of ArgoCD application for workshop purposes "
@@ -268,9 +323,7 @@ orgs:
           - quaid
           - MichaelClifford
           - Shreyanand
-          - pacospace
           - oindrillac
-          - isabelizimm
         privacy: closed
         repos:
           espresso-series: maintain
@@ -304,7 +357,12 @@ orgs:
           operate-first.github.io: admin
           operate-first.github.io-old: admin
           opfcli: admin
+          peribolos-as-a-service: admin
+          probot-extensions: admin
+          probot-template: admin
+          robozome: admin
           schema-store: admin
+          service-catalog: admin
           sre-apprenticeship: admin
           support: admin
           template: admin
@@ -318,7 +376,7 @@ orgs:
           - tumido
           - HumairAK
         members:
-          - 4n4nd
+          - larsks
         privacy: closed
         repos:
           operations: admin
@@ -344,7 +402,12 @@ orgs:
           operate-first.github.io: admin
           operate-first.github.io-old: admin
           opfcli: admin
+          peribolos-as-a-service: admin
+          probot-extensions: admin
+          probot-template: admin
+          robozome: admin
           schema-store: admin
+          service-catalog: admin
           sre-apprenticeship: admin
           support: admin
           template: admin
@@ -356,7 +419,6 @@ orgs:
         members:
           - akcoskun
           - zaoxing
-          - gianlucasb
           - abyrne55
           - mtoslalibu
         privacy: closed
@@ -364,7 +426,13 @@ orgs:
           ai-for-cloud-ops: admin
       blog:
         description: Writers and reviewers of Op1st blog posts
-        privacy: closed  # Keep as closed, more info: https://docs.github.com/en/rest/reference/teams#create-a-team
+        privacy: closed # Keep as closed, more info: https://docs.github.com/en/rest/reference/teams#create-a-team
+        maintainers:
+          - quaid
+          - jeremyeder
+          - durandom
+          - mmazur
+          - uffish
         members:
           - aakankshaduggal
           - akrawczy
@@ -375,15 +443,13 @@ orgs:
           - david-martin
           - hemajv
           - hpdempsey
-          - jeremyeder
+          - jasonbrooks
           - larsks
           - margarethaley
           - MichaelClifford
           - MichaelTiemannOSC
-          - mmazur
           - msdisme
           - oindrillac
-          - quaid
           - R-Lawton
           - sallyom
           - schwesig
@@ -394,19 +460,24 @@ orgs:
       blog-editorial:
         description: Editors who are allowed to edit and publish blog posts
         privacy: closed
-        members:
+        maintainers:
           - quaid
-          - coghlanRH
           - jeremyeder
+          - durandom
+          - mmazur
+        members:
+          - coghlanRH
           - stefwrite
         repos:
-            blog: write
+          blog: write
       blog-publishers:
         description: Team that can rework the blog platform and make ultimate publishing decisions
         privacy: closed
-        members:
+        maintainers:
           - durandom
           - quaid
+        repos:
+          blog: admin
       community-admins:
         descriptions: Admins for community oriented repos
         maintainers:
@@ -415,35 +486,31 @@ orgs:
           - margarethaley
           - billburnseh
           - durandom
+          - jasonbrooks
         privacy: closed
         repos:
           community: admin
           community-handbook: admin
       triagers:
-        description:
-          A team that can triage.
+        description: A team that can triage.
         maintainers:
           - goern
           - tumido
           - HumairAK
         members:
-          - 4n4nd
           - Gregory-Pereira
           - MichaelClifford
           - Shreyanand
           - anishasthana
           - aakankshaduggal
           - billburnseh
-          - chauhankaranraj
           - codificat
           - dystewart
           - erikerlandson
-          - fridex
           - gagansk
           - harshad16
           - hemajv
           - hpdempsey
-          - isabelizimm
           - larsks
           - leihchen
           - margarethaley
@@ -453,6 +520,7 @@ orgs:
           - PARTHSONI95
           - quaid
           - rbo
+          - SamoKopecky
           - schwesig
           - suppathak
         privacy: closed
@@ -480,7 +548,11 @@ orgs:
           operate-first.github.io: triage
           operate-first.github.io-old: triage
           opfcli: triage
+          peribolos-as-a-service: triage
+          probot-extensions: triage
+          probot-template: triage
           schema-store: triage
+          service-catalog: triage
           sre-apprenticeship: triage
           support: triage
           template: triage
@@ -525,7 +597,9 @@ orgs:
           operate-first.github.io: write
           operate-first.github.io-old: write
           opfcli: write
-          schema-store:  write
+          robozome: write
+          schema-store: write
+          service-catalog: write
           sre-apprenticeship: write
           support: write
           template: write
@@ -542,7 +616,6 @@ orgs:
       DevSecOps:
         description: A team that works on the Dev Sec operations.
         members:
-          - 4n4nd
           - goern
           - Gregory-Pereira
           - harshad16
@@ -559,6 +632,7 @@ orgs:
           - skanthed
           - ajinkyababar
           - timflannagan
+          - AvRajath
         privacy: closed
         repos:
           curator: write
@@ -569,7 +643,6 @@ orgs:
         members:
           - HumairAK
           - durandom
-          - 4n4nd
           - Gkrumbach07
           - Gregory-Pereira
           - harshad16
@@ -589,6 +662,7 @@ orgs:
           - jeremyeder
           - lisa
           - mmazur
+          - uffish
         privacy: closed
         repos:
           slo-evaluator: admin
@@ -623,3 +697,13 @@ orgs:
         privacy: closed
         repos:
           sre-u: admin
+      website:
+        description: A team maintaining any websites/webpages for the project
+        maintainers:
+          - bryanmontalvan
+          - quaid
+          - schwesig
+        members:
+          - stefwrite
+        repos:
+          operate-first.github.io: admin
