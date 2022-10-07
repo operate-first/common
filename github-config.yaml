@@ -70,6 +70,7 @@ orgs:
       - hemajv
       - hlipsig
       - hpdempsey
+      - husky-parul
       - ipolonsk
       - jacobarcarola
       - JaimeMagiera
@@ -119,6 +120,7 @@ orgs:
       - rimolive
       - riprasad
       - roastdeer
+      - rootfs
       - RobotSail
       - roytman
       - rynofinn
@@ -226,6 +228,11 @@ orgs:
       ionos-openshift:
         default_branch: main
         description: IONOS HV on OpenShift
+        has_projects: false
+        has_wiki: false
+      kepler-edge-demo:
+        default_branch: main
+        description: Use GitOps to schedule workloads following anti-sun pattern in Federated Learning at Edge
         has_projects: false
         has_wiki: false
       odh-dashboard:
@@ -708,3 +715,13 @@ orgs:
           - stefwrite
         repos:
           operate-first.github.io: admin
+      kepler:
+        description: Manage kepler projects in Op1st
+        members:
+          - husky-parul
+          - rootfs
+          - redmikhail
+          - HumairAK
+        privacy: closed
+        repos:
+          kepler-edge-demo: admin
