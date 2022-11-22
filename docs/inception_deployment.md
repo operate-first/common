@@ -102,9 +102,9 @@ EXPOSE 8080
 Build a base image based on that containerfile
 
 
-```podman build -t=inception .
+`podman build -t=inception .`
 
-podman run -d -p 8080:8080 inceptionproject/inception```
+`podman run -d -p 8080:8080 inceptionproject/inception`
 
 
 Check the version:
@@ -152,7 +152,7 @@ Create the app
      'oc expose service/inception'
 
     Run 'oc status' to view your app.
-
+```
 
 oc expose service/inception
 
