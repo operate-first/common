@@ -31,7 +31,7 @@ Use a browser to get the login url from here:
 
 https://console-openshift-console.apps.odh-cl1.apps.os-climate.org/k8s/ns/inception
 
-Log in with githubidp
+### Log in with githubidp
 
 
 After logging in you will need to navigate to the inception namespace or project:
@@ -76,12 +76,12 @@ Searching dockerhub turns this up:
 https://hub.docker.com/r/inceptionproject/inception
 
 
-Try out the container locally with podman
+### Try out the container locally with podman
 
 `podman pull inceptionproject/inception`
 
 
-Use this containerfile to build a container:
+### Use this containerfile to build a container:
 
 ```
 FROM docker.io/inceptionproject/inception
@@ -99,8 +99,7 @@ LABEL name="inception-app" \
 EXPOSE 8080
 ```
 
-Build a base image based on that containerfile
-
+### Build a base image based on that containerfile
 
 `podman build -t=inception .`
 
@@ -114,11 +113,10 @@ Check the version:
 
 root@aa911693b57c:/opt/inception# cat /export/version 
 
-25.2```
+25.2
+```
 
-
-Stop the container, commit, and push to quay.
-
+### Stop the container, commit, and push to quay.
 
 `podman commit aa911693b57c quay.io/rdaylf/inception`
 
@@ -127,7 +125,7 @@ Stop the container, commit, and push to quay.
 
 This image is now ready to be consumed by an openshift deployment.  Our configuration will be mounted on to /export in the container and will come from an openshift secret.
 
-Create the app
+### Create the app
 
 ```oc new-app inceptionproject/inception
 
@@ -145,38 +143,38 @@ Create the app
 
     service "inception" created
 
---> Success```
+--> Success
+```
 
     Application is not exposed. You can expose services to the outside world by executing one or more of the commands below:
 
-     'oc expose service/inception'
+'oc expose service/inception'
 
-    Run 'oc status' to view your app.
+Run 'oc status' to view your app.
 ```
-
 oc expose service/inception
 
 route.route.openshift.io/inception exposed
+```
 
-
-Login to the application
+### Login to the application
 
 http://inception-inception.apps.odh-cl1.apps.os-climate.org/
 
 
 Immediately change the password from the default and store in 1password.
 
-Get the deployment.yaml
-oc get deployment inception -o yaml > inception-deployment.yaml
+### Get the deployment.yaml
+`oc get deployment inception -o yaml > inception-deployment.yaml`
 
 
-Deploy with this command
+### Deploy with this command
 
-oc create -f inception-deployment.yaml
+`oc create -f inception-deployment.yaml`
 
 
 
-Hook up client side authentication to dex
+### Hook up client side authentication to dex
 
 It would be ideal if inception supported openidc external authentication, but it does not.
 
@@ -194,10 +192,10 @@ Here is a user-submitted config for this:
 https://github.com/inception-project/inception/pull/2800#issuecomment-1005196261
 
 
-Work locally with podman to develop an apache reverse proxy
+### Work locally with podman to develop an apache reverse proxy
 Start with a Redhat universal base image and add apache and proxy config.
 
-podman run -dit --name inception-proxy -p 8081:80 httpd:2.4
+`podman run -dit --name inception-proxy -p 8081:80 httpd:2.4`
 
 
 Enable proxy modules and set up virtualhost to proxy for inception
@@ -206,7 +204,7 @@ This apache virtualhost works to redirect to an inception container running loca
 
 
  
-
+```
 <VirtualHost *:80>
 
   ServerName inception.finninday.net
@@ -242,10 +240,10 @@ This apache virtualhost works to redirect to an inception container running loca
 </Location>
 
 </VirtualHost>
+```
 
 
-
-Test authentication against a dex sandbox instance.
+### Test authentication against a dex sandbox instance.
 
 
 Based on this config, connections to the proxy are authenticated by Humair’s sandbox, almost. I still have to register my OIDCRedirectURI with dex.  That happens in this configmap:
@@ -271,7 +269,7 @@ After updating my proxy redirect uri to a valid location within the inception ap
 
 Successful logs from the apache module auth_openidc look like this:
 
-
+```
 Wed Sep 07 17:51:03.273183 2022] [auth_openidc:debug] [pid 19803] src/util.c(1284): [client 10.0.0.10:52268] oidc_util_set_app_info: setting environment variable "OIDC_access_token_expires: 1663177844"
 
 [Wed Sep 07 17:51:03.273188 2022] [authz_core:debug] [pid 19803] mod_authz_core.c(809): [client 10.0.0.10:52268] AH01626: authorization result of Require valid-user : granted
@@ -279,17 +277,17 @@ Wed Sep 07 17:51:03.273183 2022] [auth_openidc:debug] [pid 19803] src/util.c(128
 [Wed Sep 07 17:51:03.273191 2022] [authz_core:debug] [pid 19803] mod_authz_core.c(809): [client 10.0.0.10:52268] AH01626: authorization result of <RequireAny>: granted
 
 [Wed Sep 07 17:51:03.273202 2022] [auth_openidc:debug] [pid 19803] src/config.c(1824): [client 10.0.0.10:52268] oidc_auth_fixups: overlaying env with 10 elements
-
+```
 
 But the app doesn’t honor the pre-authentication and is prompting for another login.
 
-Generate inception configuration to assume pre-authentication by reverse proxy
+### Generate inception configuration to assume pre-authentication by reverse proxy
 So far, we have configured a reverse proxy to redirect to dex for authentication, but inception needs to accept pre-authentication and deal properly with the authenticated user.
 
 
 This is the model config that I pulled from another inception user who is using this method of external authentication:
 
-
+```
 server.use-forward-headers=true
 
 wicket.core.csrf.enabled=false
@@ -305,7 +303,7 @@ auth.mode                     = preauth
 auth.preauth.header.principal = remote_user
 
 auth.preauth.newuser.roles    = ROLE_PROJECT_CREATOR
-
+```
 
 To troubleshoot and verify the operation of inception pre-authentication, it would be ideal to view the headers and cookies presented before and after authentication.  However, the mod_auth_openidc module purposely strips headers that could leak secrets, so troubleshooting must rely on the debug logs for the apache module.
 
@@ -315,7 +313,7 @@ Documentation about Inception header-based pre-authentication: (https://inceptio
 
 This cookie is a clue that authentication has been successful.
 
-Cookie: mod_auth_openidc_session=73a19120-7525-45e9-8189-cf0c6be27160; JSESSIONID=4E7B75C60A07A3E06629D82194C95185
+`Cookie: mod_auth_openidc_session=73a19120-7525-45e9-8189-cf0c6be27160; JSESSIONID=4E7B75C60A07A3E06629D82194C95185`
 
 
 Set the module configuration to send username along after authentication so that inception can recognize that pre-authentication has been successful.
