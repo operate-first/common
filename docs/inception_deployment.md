@@ -144,11 +144,11 @@ This image is now ready to be consumed by an openshift deployment.  Our configu
     service "inception" created
 
 --> Success
-```
 
     Application is not exposed. You can expose services to the outside world by executing one or more of the commands below:
 
 'oc expose service/inception'
+```
 
 Run 'oc status' to view your app.
 ```
