@@ -48,7 +48,7 @@ Use that to display token and get the login command for oc
 After authentication, oc status says this:
 
 
-``$ oc status
+```$ oc status
 
 In project INCEpTION (inception) on server https://api.odh-cl1.apps.os-climate.org:6443
 
@@ -64,7 +64,7 @@ http://inception-inception.apps.odh-cl1.apps.os-climate.org to pod port 8080-tcp
 
 
 1 info identified, use 'oc status --suggest' to see details.
-``
+```
 
 Locate the project page for the application
 https://inception-project.github.io/
@@ -78,12 +78,12 @@ https://hub.docker.com/r/inceptionproject/inception
 
 Try out the container locally with podman
 
-podman pull inceptionproject/inception
+`podman pull inceptionproject/inception`
 
 
 Use this containerfile to build a container:
 
-
+```
 FROM docker.io/inceptionproject/inception
 
 
@@ -97,24 +97,24 @@ LABEL name="inception-app" \
 
 
 EXPOSE 8080
-
+```
 
 Build a base image based on that containerfile
 
 
-podman build -t=inception .
+`podman build -t=inception .
 
-podman run -d -p 8080:8080 inceptionproject/inception
+podman run -d -p 8080:8080 inceptionproject/inception`
 
 
 Check the version:
 
 
-podman exec -it competent_babbage bash
+```podman exec -it competent_babbage bash
 
 root@aa911693b57c:/opt/inception# cat /export/version 
 
-25.2
+25.2```
 
 
 Stop the container, commit, and push to quay.
