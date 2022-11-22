@@ -21,8 +21,8 @@ The standard openshift tool is not freely available, so use the upstream, open-s
 Before logging in, oc status says this:
 
 
-''$ oc status
-error: You must be logged in to the server (Unauthorized)''
+`$ oc status
+error: You must be logged in to the server (Unauthorized)`
 
 Actually, the very first time you type ask for “oc status” it will say that you are missing configuration.  That will be populated by logging in the first time.
 
