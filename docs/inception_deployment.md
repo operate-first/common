@@ -102,9 +102,9 @@ EXPOSE 8080
 Build a base image based on that containerfile
 
 
-`podman build -t=inception .
+```podman build -t=inception .
 
-podman run -d -p 8080:8080 inceptionproject/inception`
+podman run -d -p 8080:8080 inceptionproject/inception```
 
 
 Check the version:
@@ -120,16 +120,16 @@ root@aa911693b57c:/opt/inception# cat /export/version 
 Stop the container, commit, and push to quay.
 
 
-podman commit aa911693b57c quay.io/rdaylf/inception
+`podman commit aa911693b57c quay.io/rdaylf/inception`
 
-podman push quay.io/rdaylf/inception
+`podman push quay.io/rdaylf/inception`
 
 
 This image is now ready to be consumed by an openshift deployment.  Our configuration will be mounted on to /export in the container and will come from an openshift secret.
 
 Create the app
 
-oc new-app inceptionproject/inception
+```oc new-app inceptionproject/inception
 
 --> Found container image b62e921 (8 days old) from Docker Hub for "inceptionproject/inception"
 
@@ -145,7 +145,7 @@ oc new-app inceptionproject/inception
 
     service "inception" created
 
---> Success
+--> Success```
 
     Application is not exposed. You can expose services to the outside world by executing one or more of the commands below:
 
