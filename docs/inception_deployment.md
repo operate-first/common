@@ -115,6 +115,7 @@ root@aa911693b57c:/opt/inception# cat /export/version 
 
 25.2
 ```
+These are the steps that will have to be repeated when it is time to deploy a newer version of inception.
 
 ### Stop the container, commit, and push to quay.
 
