@@ -1,5 +1,8 @@
 # Inception openshift deployment steps
 
+### Motivation
+This document is a description of the process for adding a new service to an OpenShift cluster.  It covers service-level configuration, containerization, and authentication through a reverse-proxy.  These are not exactly operational tasks for the cluster, but many of the steps are performed with "oc" commands and so are done by someone with authority to alter deployments in the cluster.
+I hope it will be useful for someone performing service administration while new to Openshift.
 
 ### Prerequisites
 
