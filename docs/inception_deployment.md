@@ -48,7 +48,7 @@ Use that to display token and get the login command for oc
 After authentication, oc status says this:
 
 
-`$ oc status
+``$ oc status
 
 In project INCEpTION (inception) on server https://api.odh-cl1.apps.os-climate.org:6443
 
@@ -64,7 +64,7 @@ http://inception-inception.apps.odh-cl1.apps.os-climate.org to pod port 8080-tcp
 
 
 1 info identified, use 'oc status --suggest' to see details.
-`
+``
 
 Locate the project page for the application
 https://inception-project.github.io/
