@@ -149,12 +149,12 @@ This image is now ready to be consumed by an openshift deployment.  Our configu
     Application is not exposed. You can expose services to the outside world by executing one or more of the commands below:
 
 'oc expose service/inception'
-```
 
 Run 'oc status' to view your app.
 ```
+### Issue the command to create a network route to the application
+```
 oc expose service/inception
-
 route.route.openshift.io/inception exposed
 ```
 
