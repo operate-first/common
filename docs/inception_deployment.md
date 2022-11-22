@@ -63,8 +63,8 @@ http://inception-inception.apps.odh-cl1.apps.os-climate.org to pod port 8080-tcp
 
 
 
-1 info identified, use 'oc status --suggest' to see details.`
-
+1 info identified, use 'oc status --suggest' to see details.
+`
 
 Locate the project page for the application
 https://inception-project.github.io/
