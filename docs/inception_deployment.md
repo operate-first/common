@@ -31,7 +31,7 @@ Use a browser to get the login url from here:
 
 https://console-openshift-console.apps.odh-cl1.apps.os-climate.org/k8s/ns/inception
 
-### Log in with githubidp
+When prompted, select to log in with githubidp
 
 
 After logging in you will need to navigate to the inception namespace or project:
