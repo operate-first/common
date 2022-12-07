@@ -120,9 +120,10 @@ orgs:
       - rimolive
       - riprasad
       - roastdeer
-      - rootfs
       - RobotSail
+      - rootfs
       - roytman
+      - ryanaslett
       - rynofinn
       - saadullah01
       - sallyom
@@ -725,3 +726,17 @@ orgs:
         privacy: closed
         repos:
           kepler-edge-demo: admin
+      osc-admins:
+        description: Additional privileges to relevant repositories for OS-Climate project admins
+        maintainers:
+          - erikerlandson
+          - mightynerderic
+          - redmikhail
+        members:
+          - caldeirav
+          - ryanaslett
+        privacy: closed
+        repos:
+          apps: admin
+          odh-manifests: admin
+          support: write
