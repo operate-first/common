@@ -168,6 +168,7 @@ orgs:
       - vrutkovs
       - zaoxing
       - sostrades-radouanbouadel
+      - sostrades-dpeltre
     members_can_create_repositories: false
     name: Operate First
     repos:
