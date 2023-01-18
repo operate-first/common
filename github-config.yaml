@@ -344,7 +344,7 @@ orgs:
         description: sostrades team
         privacy: closed  
         members:
-          - sostrades-radouanbouadel>
+          - sostrades-radouanbouadel
           - sostrades-dpeltre 
         repos:
           sostrades: maintain          
