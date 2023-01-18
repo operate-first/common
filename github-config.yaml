@@ -336,6 +336,14 @@ orgs:
         has_projects: false
         has_wiki: false
     teams:
+      sostrades:
+        description: sostrades team
+        privacy: closed  
+        members:
+          - sostrades-radouanbouadel>
+          - sostrades-dpeltre 
+        repos:
+          sostrades: maintain          
       Baristas:
         description: The Espresso Series Baristas
         maintainers:
