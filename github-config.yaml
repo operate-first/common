@@ -167,6 +167,7 @@ orgs:
       - vpavlin
       - vrutkovs
       - zaoxing
+      - sostrades-radouanbouadel
     members_can_create_repositories: false
     name: Operate First
     repos:
