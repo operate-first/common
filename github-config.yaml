@@ -335,6 +335,10 @@ orgs:
         description: "Repository of ArgoCD application for workshop purposes "
         has_projects: false
         has_wiki: false
+      sostrades:
+        description: sostrades repo
+        has_projects: false
+        auto_init: true
     teams:
       sostrades:
         description: sostrades team
