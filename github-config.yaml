@@ -214,6 +214,7 @@ orgs:
         has_projects: false
         has_wiki: false
       curator:
+        archived: true
         default_branch: main
         description: Metering project for OpenShift
         has_projects: false
