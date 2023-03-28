@@ -4,6 +4,7 @@ orgs:
       - durandom
       - goern
       - HumairAK
+      - quaid
       - schwesig
       - sesheta
       - tumido
@@ -399,6 +400,7 @@ orgs:
         maintainers:
           - tumido
           - HumairAK
+          - quaid
         members:
           - larsks
         privacy: closed
