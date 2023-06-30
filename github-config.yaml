@@ -220,10 +220,6 @@ orgs:
         default_branch: main
         description: Metering project for OpenShift
         has_projects: false
-      curator-operator:
-        default_branch: main
-        description: Go Operator for OpenShift metrics
-        has_projects: false
       espresso-series:
         description: This is where we plan our Expresso Series Production
         has_projects: false
@@ -371,7 +367,6 @@ orgs:
           continuous-delivery: admin
           continuous-deployment: admin
           curator: admin
-          curator-operator: admin
           espresso-series: admin
           example-acm-install: admin
           hetzner-baremetal-openshift: admin
@@ -417,7 +412,6 @@ orgs:
           continuous-delivery: admin
           continuous-deployment: admin
           curator: admin
-          curator-operator: admin
           espresso-series: admin
           example-acm-install: admin
           hetzner-baremetal-openshift: admin
@@ -563,7 +557,6 @@ orgs:
           continuous-delivery: triage
           continuous-deployment: triage
           curator: triage
-          curator-operator: triage
           espresso-series: triage
           example-acm-install: triage
           hetzner-baremetal-openshift: triage
@@ -612,7 +605,6 @@ orgs:
           continuous-delivery: write
           continuous-deployment: write
           curator: write
-          curator-operator: write
           espresso-series: write
           example-acm-install: write
           hetzner-baremetal-openshift: write
@@ -663,7 +655,6 @@ orgs:
         privacy: closed
         repos:
           curator: write
-          curator-operator: write
       odh:
         description: OpenDataHub operations
         privacy: closed
