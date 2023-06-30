@@ -10,6 +10,7 @@
 - [Labels that apply to all repos, only for PRs](#labels-that-apply-to-all-repos-only-for-prs)
 - [Labels that apply to operate-first/peribolos-as-a-service, for both issues and PRs](#labels-that-apply-to-operate-firstperibolos-as-a-service-for-both-issues-and-prs)
 - [Labels that apply to operate-first/probot-extensions, for both issues and PRs](#labels-that-apply-to-operate-firstprobot-extensions-for-both-issues-and-prs)
+- [Labels that apply to operate-first/service-catalog, for both issues and PRs](#labels-that-apply-to-operate-firstservice-catalog-for-both-issues-and-prs)
 
 ## Intro
 
@@ -87,6 +88,7 @@ larger set of contributors to apply/remove them.
 | <a id="sig/docs" href="#sig/docs">`sig/docs`</a> | Categorizes an issue or PR as relevant to SIG Docs. <br><br> This was previously `sig/documentation`, | anyone |  [label](https://git.k8s.io/test-infra/prow/plugins/label) |
 | <a id="sig/operations" href="#sig/operations">`sig/operations`</a> | Categorizes an issue or PR as relevant to SIG Operations| anyone |  [label](https://git.k8s.io/test-infra/prow/plugins/label) |
 | <a id="sig/pipelines" href="#sig/pipelines">`sig/pipelines`</a> | Categorizes an issue or PR as relevant to SIG Pipelines (CI/CD) <br><br> This was previously `sig/build`, | anyone |  [label](https://git.k8s.io/test-infra/prow/plugins/label) |
+| <a id="sig/sre" href="#sig/sre">`sig/sre`</a> | Categorizes an issue or PR as relevant to SIG SRE| anyone |  [label](https://git.k8s.io/test-infra/prow/plugins/label) |
 | <a id="triage/accepted" href="#triage/accepted">`triage/accepted`</a> | Indicates an issue or PR is ready to be actively worked on.| org members |  [label](https://git.k8s.io/test-infra/prow/plugins/label) |
 | <a id="triage/duplicate" href="#triage/duplicate">`triage/duplicate`</a> | Indicates an issue is a duplicate of other open issue. <br><br> This was previously `close/duplicate`, `duplicate`, | humans | |
 | <a id="triage/needs-information" href="#triage/needs-information">`triage/needs-information`</a> | Indicates an issue needs more information in order to work on it. <br><br> This was previously `close/needs-information`, | humans | |
@@ -143,3 +145,10 @@ larger set of contributors to apply/remove them.
 | ---- | ----------- | -------- | --- |
 | <a id="kind/release" href="#kind/release">`kind/release`</a> | Automated release trigger| humans | |
 | <a id="released" href="#released">`released`</a> | Marks issues as released| anyone | |
+
+## Labels that apply to operate-first/service-catalog, for both issues and PRs
+
+| Name | Description | Added By | Prow Plugin |
+| ---- | ----------- | -------- | --- |
+| <a id="kind/plugin" href="#kind/plugin">`kind/plugin`</a> | Related to a backstage plugin in the service catalog| humans | |
+| <a id="kind/system-definition" href="#kind/system-definition">`kind/system-definition`</a> | Related to creating a system inside the service catalog| humans | |

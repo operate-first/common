@@ -496,6 +496,12 @@ default:
       target: both
       prowPlugin: label
       addedBy: anyone
+    - color: fef2c0
+      description: Categorizes an issue or PR as relevant to SIG SRE
+      name: sig/sre
+      target: both
+      prowPlugin: label
+      addedBy: anyone
 
     - color: 8fc951
       description: Indicates an issue or PR is ready to be actively worked on.
