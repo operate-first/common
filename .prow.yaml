@@ -42,7 +42,7 @@ presubmits:
       volumes:
         - name: github-oauth
           secret:
-            secretName: oauth-token
+            secretName: github-oauth
   - name: labels
     decorate: true
     run_if_changed: labels.yaml
@@ -67,7 +67,7 @@ presubmits:
       volumes:
         - name: github-oauth
           secret:
-            secretName: oauth-token
+            secretName: github-oauth
 
 postsubmits:
   - name: operate-first-peribolos
@@ -104,7 +104,7 @@ postsubmits:
       volumes:
         - name: github-oauth
           secret:
-            secretName: oauth-token
+            secretName: github-oauth
   - name: operate-first-labels
     decorate: true
     run_if_changed: ^(github-config|labels)\.yaml$
@@ -132,4 +132,4 @@ postsubmits:
       volumes:
         - name: github-oauth
           secret:
-            secretName: oauth-token
+            secretName: github-oauth
