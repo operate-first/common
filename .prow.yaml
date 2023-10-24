@@ -6,43 +6,9 @@ presubmits:
     context: op1st/prow/pre-commit
     spec:
       containers:
-        - image: quay.io/thoth-station/thoth-precommit-py38:v0.15.0
+        - image: quay.io/thoth-station/pre-commit:v0.17.0
           command:
-            - "pre-commit"
-            - "run"
-            - "--all-files"
-  - name: peribolos
-    decorate: true
-    run_if_changed: github-config.yaml
-    skip_report: false
-    context: community-management/prow/peribolos
-    spec:
-      containers:
-        - image: gcr.io/k8s-prow/peribolos:latest
-          command:
-            - /bin/sh
-          args:
-            - -c
-            - |
-              set -ex
-              /ko-app/peribolos --config-path github-config.yaml --github-token-path /etc/github/oauth \
-                --min-admins=2 \
-                --maximum-removal-delta=0.15 \
-                --require-self=true \
-                --fix-org \
-                --fix-org-members \
-                --fix-repos \
-                --fix-teams \
-                --fix-team-members \
-                --fix-team-repos \
-                --allow-repo-archival \
-          volumeMounts:
-            - name: github-oauth
-              mountPath: /etc/github
-      volumes:
-        - name: github-oauth
-          secret:
-            secretName: github-oauth
+            - "prow-job-precommit"            
   - name: labels
     decorate: true
     run_if_changed: labels.yaml
@@ -70,46 +36,11 @@ presubmits:
             secretName: github-oauth
 
 postsubmits:
-  - name: operate-first-peribolos
-    decorate: true
-    run_if_changed: ^github-config\.yaml$
-    skip_report: false
-    context: community-management/prow/peribolos
-    branches:
-      - ^main$
-    spec:
-      containers:
-        - image: gcr.io/k8s-prow/peribolos:latest
-          command:
-            - /bin/sh
-          args:
-            - -c
-            - |
-              set -ex
-              /ko-app/peribolos --config-path github-config.yaml --github-token-path /etc/github/oauth \
-                --min-admins=2 \
-                --maximum-removal-delta=0.15 \
-                --require-self=true \
-                --fix-org \
-                --fix-org-members \
-                --fix-repos \
-                --fix-teams \
-                --fix-team-members \
-                --fix-team-repos \
-                --allow-repo-archival \
-                --confirm
-          volumeMounts:
-            - name: github-oauth
-              mountPath: /etc/github
-      volumes:
-        - name: github-oauth
-          secret:
-            secretName: github-oauth
   - name: operate-first-labels
     decorate: true
     run_if_changed: ^(github-config|labels)\.yaml$
     skip_report: false
-    context: community-management/prow/labels
+    context: community-management/prow/label_sync
     branches:
       - ^main$
     spec:
