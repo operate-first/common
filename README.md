@@ -8,7 +8,7 @@ Please check out [Operate First GitHub Organization Labels](labels.md) for avail
 
 ## Git Hub organization
 
-Git Hub organization is configured according to the [github-config.yaml](github-config.yaml) file.
+Git Hub organization is configured according to the [peribolos.yaml](https://github.com/operate-first/.github/blob/main/peribolos.yaml) file. `github-config.yaml` in this repository is ignored!!
 
 ---
 
