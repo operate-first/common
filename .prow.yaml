@@ -8,7 +8,8 @@ presubmits:
       containers:
         - image: quay.io/thoth-station/pre-commit:v0.17.0
           command:
-            - "prow-job-precommit"            
+            - "prow-job-precommit"
+
   - name: labels
     decorate: true
     run_if_changed: labels.yaml
