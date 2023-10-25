@@ -574,6 +574,7 @@ repos:
         name: post-mortem
         target: issue
         addedBy: humans
+
   operate-first/support:
     labels:
       - addedBy: anyone
@@ -586,6 +587,19 @@ repos:
         color: fb7591
         description: Requesting onboarding to ArgoCD
         name: onboarding-argocd
+        prowPlugin: label
+        target: issue
+
+  operate-first/alerts:
+    labels:
+      - color: ffce30
+        description: This issue affects cluster 'nostromo'
+        name: cluster/nostromo
+        prowPlugin: label
+        target: issue
+      - color: ffce30
+        description: This issue affects cluster 'phobos'
+        name: cluster/phobos
         prowPlugin: label
         target: issue
 
